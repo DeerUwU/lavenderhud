@@ -1,0 +1,9 @@
+"Refract"
+{
+	"%keywords" 	"tf"
+
+
+	"$scale" "[1 1]"
+	
+	"$normalmap" "vgui/replay/thumbnails/refract/viewmodel_25"
+}

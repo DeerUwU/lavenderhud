@@ -1,0 +1,13 @@
+# TF2 general mod gitignore
+*.png
+*.jpg
+*.kra
+*.tga
+*.kra~
+*.png~
+*.jpg~
+*.tga~
+*.psd
+*.ai
+sound/sound.cache
+.assets/

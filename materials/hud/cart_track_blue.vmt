@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	//"$basetexture" "vgui/replay/thumbnails/cart_icons/cart_track_progress"
+
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$translucent" 		"1"
+	
+	"$color"	"{80 164 191}"
+}

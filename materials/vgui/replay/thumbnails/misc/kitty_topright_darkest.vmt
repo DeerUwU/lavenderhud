@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 	"vgui\replay\thumbnails\misc\kitty_topright_darkest"
+	
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+	
+}

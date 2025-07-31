@@ -1,0 +1,18 @@
+// run a user script file if present
+exec autoexec.cfg
+exec config.cfg
+
+// stuff command line statements
+stuffcmds
+
+
+exec required.cfg
+
+
+alias gravyhud_initial "exec gravyhud_initialize"
+exec #gravyhud_initial.txt
+gravyhud_initial
+
+
+//run all the alias commands
+exec gravyhud.cfg

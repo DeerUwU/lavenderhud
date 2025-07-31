@@ -1,0 +1,7 @@
+"UnlitGeneric" //this is the one without blur
+{
+	"$baseTexture" "vgui\replay\thumbnails\refract\null"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

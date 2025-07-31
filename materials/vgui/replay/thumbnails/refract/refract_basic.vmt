@@ -1,0 +1,16 @@
+"Refract" //this is the one with blur
+{
+	"%keywords" 	"tf"
+	"$refractamount" "0.06"
+	"$refracttint" 	"{164 164 164}" //"{192 61 252}"
+	"$refractblur" 	"50" //1
+	"$bluramount" 	"50" //3
+	"$envmapsaturation" "0"
+	
+	"$normalmap" "vgui/replay/thumbnails/refract/refract_basic"
+	
+	<dx90
+	{
+		"$fallbackmaterial" "vgui/replay/thumbnails/refract/null"
+	}
+}

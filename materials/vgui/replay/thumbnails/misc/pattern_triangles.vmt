@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 	"vgui\replay\thumbnails\misc\pattern_triangles"
+	"$alpha"		"0.1"
+	
+	"$translucent" 	1
+	"$ignorez" 		1
+	"$vertexcolor" 	1
+}

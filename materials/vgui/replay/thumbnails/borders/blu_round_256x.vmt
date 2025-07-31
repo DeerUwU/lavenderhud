@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 	"vgui\replay\thumbnails\borders\blu_round_256x"
+	
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,136 @@
+//=====================================================================================================================
+event HudHealthBonusPulse
+{
+    Animate         PlayerStatusHealthValue         FgColor     "gravy_health_high"   	    Linear      0.0     0.0
+    Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_health_high_shadow"  Linear      0.0     0.0
+    Animate         HealthImageBonus                Alpha       "200"                       Linear      0.0     0.0
+    Animate         HealthImageBonusMM              Alpha       "255"                       Linear      0.0     0.0
+
+    RunEvent        HudHealthBonusPulseLoop         0.4
+}
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+event HudHealthBonusPulseStop
+{
+    StopEvent       HudHealthBonusPulse             0.0
+    StopEvent       HudHealthBonusPulseLoop         0.0
+
+    Animate         HealthImageBonus                Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageBonusMM              Alpha       "0"                     Linear      0.0     0.0
+    Animate         PlayerStatusHealthValue         FgColor     "gravy_primary_light"   Linear      0.0     0.0
+    Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_primary_dark"    Linear      0.0     0.0
+}
+//=====================================================================================================================
+event HudHealthDyingPulse
+{
+    Animate         PlayerStatusHealthValue         FgColor     "gravy_health_low"          Linear      0.0     0.0
+    Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_health_low_shadow"   Linear      0.0     0.0
+    Animate         HealthImageDying                Alpha       "200"                       Linear      0.0     0.0
+    Animate         HealthImageDyingMM              Alpha       "255"                       Linear      0.0     0.0
+
+    RunEvent        HudHealthDyingPulseLoop         0.25
+}
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+    StopEvent       HudHealthDyingPulse             0.0
+    StopEvent       HudHealthDyingPulseLoop         0.0
+
+    Animate         HealthImageDying                Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageDyingMM              Alpha       "0"                     Linear      0.0     0.0
+    Animate         PlayerStatusHealthValue         FgColor     "gravy_primary_light"   Linear      0.0     0.0
+    Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_primary_dark"    Linear      0.0     0.0
+}
+//=====================================================================================================================
+event HudLowAmmoPulse
+{
+    Animate         AmmoInClip              FgColor     "gravy_health_low"          Linear      0.0     0.0
+    Animate         AmmoInReserve           FgColor     "gravy_health_low"          Linear      0.0     0.0
+    Animate         AmmoNoClip              FgColor     "gravy_health_low"          Linear      0.0     0.0
+    Animate         AmmoInClipShadow        FgColor     "gravy_health_low_shadow"   Linear      0.0     0.0
+    Animate         AmmoInReserveShadow     FgColor     "gravy_health_low_shadow"   Linear      0.0     0.0
+    Animate         AmmoNoClipShadow        FgColor     "gravy_health_low_shadow"   Linear      0.0     0.0
+
+    RunEvent        HudLowAmmoPulseLoop             0.25
+}
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+event HudLowAmmoPulseStop
+{
+    StopEvent       HudLowAmmoPulse                 0.0
+    StopEvent       HudLowAmmoPulseLoop             0.0
+
+    Animate         AmmoInClip              FgColor     "gravy_primary_light"  Linear      0.0     0.0
+    Animate         AmmoInReserve           FgColor     "gravy_primary_light"  Linear      0.0     0.0
+    Animate         AmmoNoClip              FgColor     "gravy_primary_light"  Linear      0.0     0.0
+    Animate         AmmoInClipShadow        FgColor     "gravy_primary_dark"   Linear      0.0     0.0
+    Animate         AmmoInReserveShadow     FgColor     "gravy_primary_dark"   Linear      0.0     0.0
+    Animate         AmmoNoClipShadow        FgColor     "gravy_primary_dark"   Linear      0.0     0.0
+}
+
+//=====================================================================================================================
+event HudTournamentSetupPanelOpen
+{
+    Animate         HudTournamentSetup              ypos        "30"                    Linear      0.0     0.0
+}
+event HudTournamentSetupPanelClose
+{
+    Animate         HudTournamentSetup              ypos        "-35"                   Linear      0.0     0.0
+}
+
+//=====================================================================================================================
+event SurveyShowSequence	// remove stupid post match poll
+{
+    RunEventChild   Survey  SurveyDelete    0.1
+}
+event SurveyDelete
+{
+	FireCommand 0 "delete"
+}
+
+//=====================================================================================================================
+
+//--------------------------------------------------------------------------
+// these prevent the chat from moving
+event CompetitiveGame_LowerChatWindow {}
+
+event HudTournament_MoveChatWindow {}
+
+// fix stuck animations on death
+event CompetitiveGame_RestoreChatWindow
+{
+    //Animate HudChat ypos 275 Accel 0 0  //Default animation
+
+    //Fix stuck animations
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+    //RunEventChild    MainMenuOverride    TestStart    0.0
+}
+
+event TestStart
+{
+    FireCommand        0.0                "engine mat_viewportscale 0"
+    RunEvent        Test            0.0
+}
+
+event Test
+{
+    FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
+    RunEvent        TestLoop        0.01
+}
+
+event TestLoop
+{
+    RunEvent    Test    0.00
+}
+//=====================================================================================================================

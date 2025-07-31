@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\cp_icons\progress_bar_noCap"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

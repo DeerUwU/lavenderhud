@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+  	//"$baseTexture" "vgui\replay\thumbnails\cp_icons\icon_obj_white"
+  	"$baseTexture" "vgui\replay\thumbnails\null"
+	"$translucent" "1"
+	"$ignorez" "1"
+}

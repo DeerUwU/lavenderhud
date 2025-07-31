@@ -1,0 +1,88 @@
+"Resource/UI/disguise_menu/demoman_blue.res"
+{
+	"ItemNameLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemName"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"20"
+
+
+		"visible"		"0"
+
+		"labelText"		"#TF_Class_Name_Demoman"
+		"textAlignment"	"Center"
+
+
+	}
+		
+	"ClassIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"ClassIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"90"
+		"visible"		"1"
+
+		"scaleImage"	"1"	
+		"icon"			"hud_menu_demoman_blu"
+	}
+	
+	"NumberBg"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"NumberBg"
+		"xpos"			"15"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+
+		"scaleImage"	"1"	
+		"iconColor"		"255 255 255 0"
+		"border"		"rounded_dark_16x"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"Default"
+		"fgcolor"		"Black"
+		"xpos"			"15"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"0"
+
+		"labelText"		"1"
+		"textAlignment"	"Center"
+	}
+	
+	"NumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"Default"
+		"fgcolor"		"gravy_darkest"
+		"xpos"			"15"
+		"ypos"			"90"
+		"zpos"			"0"
+		"wide"			"16"
+		"tall"			"16"
+
+		"visible"		"1"
+
+		"labelText"		"4"
+		"textAlignment"	"Center"
+	}
+}

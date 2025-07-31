@@ -1,0 +1,14 @@
+"chapters" //this is for the main menu
+{
+	1       "mockup_mainmenu_bg"
+	2       "mockup_mainmenu_bg"
+	3       "mockup_mainmenu_bg"
+	4       "mockup_mainmenu_bg"
+}
+"BackgroundMaps"
+{
+	1       "mockup_mainmenu_bg"
+	2       "mockup_mainmenu_bg"
+	3       "mockup_mainmenu_bg"
+	4       "mockup_mainmenu_bg"
+}
