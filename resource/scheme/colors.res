@@ -18,10 +18,12 @@ Scheme
 		"gravy_team_red_dark"		"122 37 35 255"
 		"gravy_team_red"			"158 45 43 255"
 		"gravy_team_red_light"		"202 77 75 255"
+		"gravy_team_red_lightest"	"221 90 106 255"
+
 		"gravy_team_blu_dark"		"46 87 106 255"
 		"gravy_team_blu"			"74 113 131 255"
 		"gravy_team_blu_light"		"80 164 191 255"
-
+		"gravy_team_blu_lightest"	"128 218 236 255"
 
 		"gravy_health_high"			"128 218 236 255"
 		"gravy_health_high_shadow"	"90 167 214 255"

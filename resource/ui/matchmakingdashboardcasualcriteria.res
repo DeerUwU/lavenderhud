@@ -22,7 +22,7 @@
 		"ypos"					"20"
 		"zpos"					"99"
 		"wide"					"f0"
-		"tall"					"30"
+		"tall"					"32"
 		"proportionaltoparent"	"1"
 		"labeltext"				"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"			"center"

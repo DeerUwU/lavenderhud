@@ -68,6 +68,19 @@
 		"fgcolor"			"gravy_primary_dark"
 		"pin_to_sibling" 	"PlayerStatusHealthValue"
 	}
+	"HealthBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"rs1-100"
+		"ypos"			"c-25"
+		"zpos"			"-100"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"1"
+		"border"		"rounded_trans_darkest_32x"
+		"proportionaltoparent"	"1"
+	}	
 	
 	"PlayerStatusMaxHealthValue"	//tiny number above health telling u the max hp
 	{

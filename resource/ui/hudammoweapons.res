@@ -1,6 +1,18 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"100"
+		"ypos"			"c-25"
+		"zpos"			"-100"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"1"
+		"border"		"rounded_trans_darkest_32x"
+		"proportionaltoparent"	"1"
+	}	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"

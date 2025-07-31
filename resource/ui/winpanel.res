@@ -68,7 +68,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"milku20"
+			"font"			"sugar-25"
+			"fgcolor"		"gravy_team_blu_lightest"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"56"
@@ -78,17 +79,17 @@
 			"tall"			"20"
 
 			"visible"		"1"
-			"fgcolor"		"TanLight"
 		}							
 		"BlueTeamScore"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"jua40"
+			"font"			"sugar-40"
+			"fgcolor"		"gravy_team_blu_lightest"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"75"
-			"ypos"			"7"
+			"ypos"			"6"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -99,8 +100,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BlueTeamScoreDropshadow"
-			"font"				"jua40"
-			"fgcolor"			"gravy_darkest"
+			"font"				"sugar-40"
+			"fgcolor"			"gravy_team_blu_dark"
 			"labelText"			"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"				"-2"
@@ -144,7 +145,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"milku20"
+			"font"			"sugar-25"
+			"fgcolor"		"gravy_team_red_lightest"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"224"
@@ -154,17 +156,17 @@
 			"tall"			"20"
 
 			"visible"		"1"
-			"fgcolor"		"gravy_offwhite"
 		}							
 		"RedTeamScore"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"jua40"
+			"font"			"sugar-40"
+			"fgcolor"		"gravy_team_red_lightest"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"207"
-			"ypos"			"7"
+			"ypos"			"6"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
@@ -176,8 +178,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RedTeamScoreDropshadow"
-			"font"				"jua40"
-			"fgcolor"			"gravy_darkest"
+			"font"				"sugar-40"
+			"fgcolor"			"gravy_team_red_dark"
 			"labelText"			"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"				"-2"

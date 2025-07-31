@@ -10,7 +10,7 @@
 		"zpos"					"-10"
 		"wide"					"154"
 		"tall"					"10"				
-		"visible"				"1"
+		"visible"				"0"
 		"textAlignment"			"center"
 		"border"				"ItemEffectMeterBG"
 
@@ -79,7 +79,7 @@
 		"zpos"					"-7"
 		"wide"					"150"
 		"tall"					"6"				
-		"visible"				"1"
+		"visible"				"0"
 		"textAlignment"			"center"
 		"border"				"ItemEffectMeterRoundedCorners"
 

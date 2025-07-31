@@ -1,5 +1,5 @@
 #base "MatchMakingDashboardSidePanel.res"
-
+// panel for the list that contains stuff like casual, competitive, training etc
 "Resource/UI/MatchMakingDashboardPlayList.res"
 {
 	"ExpandableList"
@@ -19,7 +19,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"Title"
 		"xpos"					"8"
-		"ypos"					"30"
+		"ypos"					"32"
 		"zpos"					"99"
 		"wide"					"f0"
 		"tall"					"30"

@@ -8,7 +8,7 @@
 		"visible"		"1"
 
 		"xpos"			"c140"
-		"ypos"			"rs1-70"
+		"ypos"			"rs1-60"
 
 		"wide"			"100"
 		"tall"			"50"
@@ -36,7 +36,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"killstreak_symbol"
 		"xpos"					"3"
-		"ypos"					"-1"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"
@@ -88,7 +88,7 @@
 
 		"auto_wide_tocontents"	"0"
 		"proportionaltoparent"	"1"
-		"font"					"jua20"
+		"font"					"sugar-25"
 		"fgcolor"				"gravy_primary_light"
 	}	
 	"ItemEffectMeterCountShadow"
@@ -106,7 +106,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 
-		"font"					"jua20"
+		"font"					"sugar-25"
 		"fgcolor"				"gravy_primary_dark"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
