@@ -145,7 +145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "8"
 				"antialias"	"1"
 			}
@@ -154,7 +154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "10"
 				"antialias"	"1"
 			}
@@ -163,7 +163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "12"
 				"antialias"	"1"
 			}
@@ -173,7 +173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "15"
 				"antialias"	"1"
 			}
@@ -182,7 +182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "20"
 				"antialias"	"1"
 			}
@@ -191,7 +191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "25"
 				"antialias"	"1"
 			}
@@ -200,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "30"
 				"antialias"	"1"
 			}
@@ -209,7 +209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "35"
 				"antialias"	"1"
 			}
@@ -218,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "40"
 				"antialias"	"1"
 			}
@@ -227,7 +227,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "45"
 				"antialias"	"1"
 			}
@@ -236,7 +236,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Milku"
+				"name" "jua-regular-extended"
 				"tall" "50"
 				"antialias"	"1"
 			}
@@ -371,6 +371,24 @@ Scheme
 			{
 				"name" "More Sugar"
 				"tall" "40"
+				"antialias"	"1"
+			}
+		}
+		"sugar-45"
+		{
+			"1"
+			{
+				"name" "More Sugar"
+				"tall" "45"
+				"antialias"	"1"
+			}
+		}
+		"sugar-50"
+		{
+			"1"
+			{
+				"name" "More Sugar"
+				"tall" "50"
 				"antialias"	"1"
 			}
 		}
@@ -534,7 +552,7 @@ Scheme
 		"A"
 		{
 			"font" "resource/fonts/milku_edit.ttf"
-			"name" "Milku"
+			"name" "jua-regular-extended"
 			"range" "0x0021 0x00FF"
 		}
 		"B"

@@ -248,12 +248,12 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
+		"xpos"			"9999"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
+		"visible"		"0"
 
 		"scaleImage"	"1"
 	}
@@ -1259,14 +1259,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabel"
-			"font"				"star30"
+			"font"				"star25"
 			"fgcolor_override"	"gravy_primary"
 			"labelText"			"#TF_Competitive_Friends"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
 
 			"xpos"			"cs-0.5"
-			"ypos"			"-2"
+			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"25"
@@ -1280,7 +1280,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabelShadow"
-			"font"				"star30"
+			"font"				"star25"
 			"fgcolor_override"	"gravy_primary_dark"
 			"labelText"			"#TF_Competitive_Friends"
 			"textAlignment"		"center"

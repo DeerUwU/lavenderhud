@@ -259,7 +259,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabelTest"
-		"font"			"Jua40"
+		"font"			"sugar-40"
 		"fgcolor"		"gravy_team_blu_light"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
@@ -279,7 +279,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabelShadow"
-		"font"			"Jua40"
+		"font"			"sugar-40"
 		"fgcolor"		"gravy_team_blu_dark"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
@@ -300,7 +300,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabelTest"
-		"font"			"Jua40"
+		"font"			"sugar-40"
 		"fgcolor"		"gravy_team_red_light"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
@@ -320,7 +320,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabelShadow"
-		"font"			"Jua40"
+		"font"			"sugar-40"
 		"fgcolor"		"gravy_team_red_dark"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"

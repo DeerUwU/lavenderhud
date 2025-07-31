@@ -35,9 +35,9 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"zpos"			"-1"
-		"visible"		"0"
+		"visible"		"1"
 
-		"image"			"../console/ashan_final_widescreen"
+		"image"			"../console/mockup_mainmenu_bg"
 		"scaleImage"	"1"
 	}
 
@@ -57,12 +57,12 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MapImage"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"480"
-			"visible"		"1"
+			"visible"		"0"
 
 			"image"			""
 			"scaleImage"	"1"		
@@ -88,7 +88,7 @@
 				"ypos"			"0"
 				"wide"			"300"
 				"tall"			"55"
-				"visible"		"1"
+				"visible"		"0"
 
 				"border"		"TFThinLineBorder"
 			}
@@ -116,7 +116,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InfoBG"
-			"xpos"			"c+10"
+			"xpos"			"9999"
 			"ypos"			"120"
 			"wide"			"285"
 			"tall"			"280"
@@ -134,7 +134,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%title%"
 			"textAlignment"	"north"
-			"xpos"			"c20"
+			"xpos"			"9999"
 			"ypos"			"135"
 			"zpos"			"2"
 			"wide"			"275"
@@ -2157,12 +2157,12 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c130"
+		"xpos"			"9999"
 		"ypos"			"270"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"visible"		"1"
+		"visible"		"0"
 
 		
 		"labelText"		"#TF_ResetStats"

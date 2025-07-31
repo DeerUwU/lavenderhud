@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"jua40"	//HudFontGiantBold
+		"font"			"sugar-50"
 		"fgcolor"		"gravy_primary_light"
 		"xpos"			"70"
 		"ypos"			"c-25"
@@ -52,7 +52,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInClipShadow"
-		"font"				"jua40"
+		"font"				"sugar-50"
 		"fgcolor"			"gravy_primary_dark"
 		"xpos"				"-2"
 		"ypos"				"-2"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInReserve"
-		"font"				"jua20"	//HudFontMediumSmall
+		"font"				"sugar-30"
 		"fgcolor"			"gravy_primary_light"
 		"xpos"				"175"
 		"ypos"				"c-20"
@@ -88,7 +88,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoInReserveShadow"
-		"font"				"jua20"
+		"font"				"sugar-30"
 		"fgcolor"			"gravy_primary_dark"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoNoClip"
-		"font"				"jua40"
+		"font"				"sugar-50"
 		"fgcolor"			"gravy_primary_light"
 		"xpos"				"80"
 		"ypos"				"c-25"
@@ -124,7 +124,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AmmoNoClipShadow"
-		"font"				"jua40"
+		"font"				"sugar-50"
 		"fgcolor"			"gravy_primary_dark"
 		"xpos"				"-2"
 		"ypos"				"-2"

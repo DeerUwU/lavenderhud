@@ -65,7 +65,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassMenuSelect"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"450"
 			"tall"			"30"

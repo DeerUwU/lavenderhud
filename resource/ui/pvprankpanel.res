@@ -207,7 +207,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
-			"ypos"			"0"
+			"ypos"			"2"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"25"

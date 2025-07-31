@@ -110,6 +110,22 @@
 		"tall"				"15"
 		"visible"			"1"
 	}
+	"CaratLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"CaratLabelShadow"
+		"fgcolor_override" 	"gravy_primary_dark"
+		"font"				"icon30"
+		"labelText"			"v"
+		"textAlignment"		"west"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"0"
+		"wide"				"20"
+		"tall"				"15"
+		"visible"			"1"
+		"pin_to_sibling"	"CaratLabel"
+	}
 
 	"ClassLabel"
 	{
@@ -120,12 +136,28 @@
 		"labelText"			"#ClassBeingEquipped"
 		"textAlignment"		"west"
 		"xpos"				"-25"
-		"ypos"				"15"
+		"ypos"				"11"
 		"zpos"				"1"
 		"wide"				"240"
 		"tall"				"35"
 		"visible"			"1"
 		"pin_to_sibling"	"CaratLabel"
+	}
+	"ClassLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ClassLabelShadow"
+		"fgcolor_override"	"gravy_primary_dark"
+		"font"				"star35"
+		"labelText"			"#ClassBeingEquipped"
+		"textAlignment"		"west"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"0"
+		"wide"				"240"
+		"tall"				"35"
+		"visible"			"1"
+		"pin_to_sibling"	"ClassLabel"
 	}
 
 	"TauntCaratLabel"

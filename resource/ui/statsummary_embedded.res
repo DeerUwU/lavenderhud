@@ -284,9 +284,9 @@
 			"labelText"			"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"xpos"				"c-285"
-			"ypos"				"160"
+			"ypos"				"164"
 			"zpos"				"2"
-			"wide"				"300"
+			"wide"				"350"
 			"tall"				"30"
 			
 			"visible"			"1"
@@ -301,7 +301,7 @@
 			"textAlignment"		"west"
 			"xpos"				"-1"
 			"ypos"				"-1"
-			"wide"				"300"
+			"wide"				"350"
 			"tall"				"30"
 			
 			"visible"			"1"

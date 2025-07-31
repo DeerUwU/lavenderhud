@@ -45,7 +45,7 @@
 
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"jua40"
+		"font"			"sugar-50"
 		"fgcolor"		"gravy_primary_light"
 
 		"proportionaltoparent"	"1"
@@ -64,7 +64,7 @@
 
 		"labelText"		"%Health%"
 		"textAlignment"		"center"	
-		"font"				"jua40"
+		"font"				"sugar-50"
 		"fgcolor"			"gravy_primary_dark"
 		"pin_to_sibling" 	"PlayerStatusHealthValue"
 	}

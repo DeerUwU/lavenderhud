@@ -44,7 +44,7 @@
 		"labelText"		"#TF_AdvancedOptions"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"45"
+		"ypos"			"47"
 		"zpos"			"2"
 		"wide"			"500"
 		"tall"			"40"
@@ -168,7 +168,7 @@
 		"visible"		"1"
 
 		"textinsetx"	"32"
-		"textinsety"	"2"
+		"textinsety"	"0"
 		"font"			"milku25"
 		"textAlignment"	"center"
 		"labeltext" 	"Cancel"
@@ -218,7 +218,7 @@
 		"visible"		"1"
 
 		"textinsetx"	"32"
-		"textinsety"	"2"
+		"textinsety"	"0"
 		"font"			"milku25"
 		"textAlignment"	"center"
 		"labeltext" 	"Apply"
