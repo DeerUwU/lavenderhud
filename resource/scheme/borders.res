@@ -441,6 +441,34 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
+		rounded_trans_darkest_20x
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"paintfirst"			"1"
+			"color"					"gravy_darkest"
+			
+			"image"					"replay/thumbnails/borders/tintable_round_trans"
+			
+			"src_corner_height"		"128"				// pixels inside the image
+			"src_corner_width"		"128"
+			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"	
+		}
+		rounded_darkest_20x
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"paintfirst"			"1"
+			"color"					"gravy_darkest"
+			
+			"image"					"replay/thumbnails/borders/tintable_round_256x"
+			
+			"src_corner_height"		"128"				// pixels inside the image
+			"src_corner_width"		"128"
+			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"	
+		}
 		rounded_trans_dark_32x
 		{
 			"bordertype"			"scalable_image"

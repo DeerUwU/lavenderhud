@@ -25,10 +25,10 @@
 			"border_selected"			"rounded_primary_32x"
 			"border_depressed"			"rounded_primary_32x"
 
-			"defaultFgColor_override"	"gravy_darkest"
-			"armedFgColor_override"		"gravy_darkest"
-			"selectedFgColor_override"	"gravy_darkest"
-			"depressedFgColor_override"	"gravy_darkest"
+			"defaultFgColor_override"	"gravy_dark"
+			"armedFgColor_override"		"gravy_dark"
+			"selectedFgColor_override"	"gravy_dark"
+			"depressedFgColor_override"	"gravy_dark"
 
 			"sound_armed"		"ui/ui_select.wav"
 			"sound_depressed"	"ui/ui_interior_focus.wav"

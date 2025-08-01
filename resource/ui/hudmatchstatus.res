@@ -260,7 +260,7 @@
 		"fieldName"				"ObjectiveStatusTimePanel"
 		"xpos"					"c-55"
 		"ypos"					"5"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"100"
 		"tall"					"150"
 		"visible"				"0"
@@ -301,13 +301,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"jua15"
+			"font"			"jua12"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"45"
-			"tall"			"26"
+			"tall"			"23"
 			"visible"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
@@ -325,7 +325,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"7"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -342,6 +342,26 @@
 		"team2_grow_dir" 	"east"
 		"team2_base_x"		"c57"
 		"team2_max_expand"	"133"
+
+		"PlayerlistBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"PlayerlistBG"
+			"xpos"				"cs-0.5"
+			"ypos"				"0"
+			"zpos"				"-10"		
+			"wide"				"400"
+			"tall"				"20"
+			"visible"			"1"
+			"paintBackground"	"0"
+			"border"			"rounded_darkest_20x"
+			"proportionaltoparent"	"1"
+
+			if_large
+			{
+				"wide"				"400"
+			}
+		}	
 
 		"playerpanels_kv"
 		{

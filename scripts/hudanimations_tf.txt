@@ -527,13 +527,13 @@ event ActiveTimerBGPulse
 event ActiveTimerHighlight
 {
 	Animate TimePanelValue FgColor	gravy_offwhite		Linear 0.1 0.1
-	Animate TimePanelValue FgColor	"gravy_darkest"		Linear 0.3 0.1
+	Animate TimePanelValue FgColor	"gravy_dark"		Linear 0.3 0.1
 
 	Animate TimePanelValue FgColor	gravy_offwhite		Linear 0.5 0.1
-	Animate TimePanelValue FgColor	"gravy_darkest"		Linear 0.7 0.1
+	Animate TimePanelValue FgColor	"gravy_dark"		Linear 0.7 0.1
 
 	Animate TimePanelValue FgColor	gravy_offwhite		Linear 0.9 0.1
-	Animate TimePanelValue FgColor	"gravy_darkest"		Linear 1.1 0.1
+	Animate TimePanelValue FgColor	"gravy_dark"		Linear 1.1 0.1
 
 	Animate TimePanelValue FgColor	gravy_offwhite		Linear 1.3 0.3
 	
@@ -542,7 +542,7 @@ event ActiveTimerHighlight
 event ActiveTimerDim
 {
 	// Slow fade out
-	Animate TimePanelValue FgColor	"gravy_darkest"		Linear 0.0 0.4
+	Animate TimePanelValue FgColor	"gravy_dark"		Linear 0.0 0.4
 }
 
 //===========================================
@@ -684,13 +684,13 @@ event HasMOTDBlinkStop
 event HasNotificationsBlink
 {
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"20"		Linear 0.2 0.1
 		
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"20"		Linear 0.6 0.1
 	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"20"		Linear 1.0 0.1
 	
 	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 

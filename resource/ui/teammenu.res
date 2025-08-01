@@ -119,7 +119,7 @@
 			"xpos"				"-1"
 			"ypos"				"-1"
 			"zpos"				"0"
-			"wide"				"200"
+			"wide"				"250"
 			"tall"				"4"
 
 			"paintBackground"		"0"

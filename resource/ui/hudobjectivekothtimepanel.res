@@ -27,7 +27,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"jua15"
+		"delta_item_font"		"jua12"
 
 		if_match
 		{
@@ -42,13 +42,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"jua15"
+			"font"			"jua12"
 			"fgcolor"		"gravy_darkest"
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"50"
-			"tall"			"31"
+			"tall"			"24"
 			"visible"		"1"
 
 			"textAlignment"	"center"
@@ -60,7 +60,7 @@
 
 				"xpos"			"cs-1"
 				"ypos"			"0"
-				"tall"			"26"
+				"tall"			"23"
 			}
 		}	
 	}
@@ -84,7 +84,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"jua15"
+		"delta_item_font"		"jua12"
 
 		if_match
 		{
@@ -99,7 +99,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"jua15"
+			"font"			"jua12"
 			"fgcolor"		"gravy_darkest"
 			"xpos"			"23"
 			"ypos"			"11"
@@ -117,7 +117,7 @@
 
 				"xpos"			"c0"
 				"ypos"			"0"
-				"tall"			"26"
+				"tall"			"23"
 			}
 		}	
 	}

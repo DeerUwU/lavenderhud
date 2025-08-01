@@ -73,10 +73,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBG"
 		"xpos"			"rs1-100"
-		"ypos"			"c-25"
+		"ypos"			"c-20"
 		"zpos"			"-100"
 		"wide"			"120"
-		"tall"			"50"
+		"tall"			"40"
 		"visible"		"1"
 		"border"		"rounded_trans_darkest_32x"
 		"proportionaltoparent"	"1"
@@ -109,7 +109,7 @@
         "ControlName"                               "Panel"
         "fieldName"                                 "HealthAnchor"
         "xpos"										"rs1-155"
-		"ypos"										"c-35"
+		"ypos"										"c-55"
         "zpos"                                      "0"
         "wide"                                      "10"
         "tall"                                      "10"
@@ -121,55 +121,11 @@
     {
         "ControlName"                               "ImagePanel"
         "fieldName"                                 "HealthImageBonus"
-        "xpos"                                      "-18"
-        "ypos"                                      "30"
+        "xpos"                                      "-0"
+        "ypos"                                      "0"
         "zpos"                                      "0"
-        "xpos_minmode"                              "9999"
-        "ypos_minmode"                              "9999"
-        "wide"                                      "120"
-        "tall"                                      "120"
-        "visible"                                   "1"
-
-        "alpha"                                     "0"
-        "image"                                     "replay/thumbnails/temp/overheal"
-        "scaleImage"                                "1"
-
-        "pin_to_sibling"                            "HealthAnchor"
-        "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
-    }
-    "HealthImageDying"
-    {
-        "ControlName"                               "ImagePanel"
-        "fieldName"                                 "HealthImageDying"
-        "xpos"                                      "18"
-        "ypos"                                      "35"
-        "zpos"                                      "0"
-        "xpos_minmode"                              "9999"
-        "ypos_minmode"                              "9999"
-        "wide"                                      "115"
-        "tall"                                      "115"
-        "visible"                                   "1"
-
-        "alpha"                                     "0"
-        "image"                                     "replay/thumbnails/temp/lowhp"
-        "scaleImage"                                "1"
-
-        "pin_to_sibling"                            "HealthAnchor"
-        "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
-    }
-    "HealthImageBonusMM"
-    {
-        "ControlName"                               "ImagePanel"
-        "fieldName"                                 "HealthImageBonusMM"
-        "xpos"                                      "9999"
-        "ypos"                                      "9999"
-        "zpos"                                      "10"
-        "xpos_minmode"                              "0"
-        "ypos_minmode"                              "35"
-        "wide"                                      "70"
-        "tall"                                      "70"
+        "wide"                                      "64"
+        "tall"                                      "64"
         "visible"                                   "1"
 
         "alpha"                                     "0"
@@ -180,17 +136,15 @@
         "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
         "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
     }
-    "HealthImageDyingMM"
+    "HealthImageDying"
     {
         "ControlName"                               "ImagePanel"
-        "fieldName"                                 "HealthImageDyingMM"
-        "xpos"                                      "9999"
-        "ypos"                                      "9999"
-        "zpos"                                      "10"
-        "xpos_minmode"                              "0"
-        "ypos_minmode"                              "35"
-        "wide"                                      "80"
-        "tall"                                      "80"
+        "fieldName"                                 "HealthImageDying"
+        "xpos"                                      "0"
+        "ypos"                                      "0"
+        "zpos"                                      "0"
+        "wide"                                      "64"
+        "tall"                                      "64"
         "visible"                                   "1"
 
         "alpha"                                     "0"
@@ -201,30 +155,6 @@
         "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
         "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
     }
-	"HealthImageDyingMM_Debug"
-    {
-        "ControlName"                               "ImagePanel"
-        "fieldName"                                 "HealthImageDyingMM_Debug"
-        "xpos"                                      "0"
-        "ypos"                                      "0"
-        "zpos"                                      "10"
-        "wide"                                      "80"
-        "tall"                                      "80"
-        "visible"                                   "0"
-
-        "alpha"                                     "255"
-        "image"                                     "replay/thumbnails/temp/lowhp_mm"
-        "scaleImage"                                "1"
-
-        "pin_to_sibling"                            "HealthAnchor"
-        "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
-        "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
-    }
-
-
-
-
-
 
 
 

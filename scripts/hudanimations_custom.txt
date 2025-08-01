@@ -3,8 +3,7 @@ event HudHealthBonusPulse
 {
     Animate         PlayerStatusHealthValue         FgColor     "gravy_health_high"   	    Linear      0.0     0.0
     Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_health_high_shadow"  Linear      0.0     0.0
-    Animate         HealthImageBonus                Alpha       "200"                       Linear      0.0     0.0
-    Animate         HealthImageBonusMM              Alpha       "255"                       Linear      0.0     0.0
+    Animate         HealthImageBonus                Alpha       "196"                       Linear      0.0     0.0
 
     RunEvent        HudHealthBonusPulseLoop         0.4
 }
@@ -18,7 +17,6 @@ event HudHealthBonusPulseStop
     StopEvent       HudHealthBonusPulseLoop         0.0
 
     Animate         HealthImageBonus                Alpha       "0"                     Linear      0.0     0.0
-    Animate         HealthImageBonusMM              Alpha       "0"                     Linear      0.0     0.0
     Animate         PlayerStatusHealthValue         FgColor     "gravy_primary_light"   Linear      0.0     0.0
     Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_primary_dark"    Linear      0.0     0.0
 }
@@ -27,8 +25,7 @@ event HudHealthDyingPulse
 {
     Animate         PlayerStatusHealthValue         FgColor     "gravy_health_low"          Linear      0.0     0.0
     Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_health_low_shadow"   Linear      0.0     0.0
-    Animate         HealthImageDying                Alpha       "200"                       Linear      0.0     0.0
-    Animate         HealthImageDyingMM              Alpha       "255"                       Linear      0.0     0.0
+    Animate         HealthImageDying                Alpha       "196"                       Linear      0.0     0.0
 
     RunEvent        HudHealthDyingPulseLoop         0.25
 }
@@ -43,7 +40,6 @@ event HudHealthDyingPulseStop
     StopEvent       HudHealthDyingPulseLoop         0.0
 
     Animate         HealthImageDying                Alpha       "0"                     Linear      0.0     0.0
-    Animate         HealthImageDyingMM              Alpha       "0"                     Linear      0.0     0.0
     Animate         PlayerStatusHealthValue         FgColor     "gravy_primary_light"   Linear      0.0     0.0
     Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_primary_dark"    Linear      0.0     0.0
 }

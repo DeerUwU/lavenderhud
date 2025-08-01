@@ -77,6 +77,15 @@
 		"subimage" 		""
 		"tooltip" 		"#MMenu_MutePlayers"
 	}
+	"CustomizationMenuButton"
+	{
+		"label"			"x"
+		"command"		"engine sv_cheats 1;sv_allow_wait_command 1; wait 50; toggle cl_mainmenu_safemode"
+		"OnlyInGame"	"0"
+		"subimage" 		""
+		"tooltip" 		"Customization Panel"
+	}
+
 	"MainMenuShader"
 	{
 		"label"			" "

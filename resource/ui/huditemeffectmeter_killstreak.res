@@ -8,7 +8,7 @@
 		"visible"		"1"
 
 		"xpos"			"c140"
-		"ypos"			"rs1-60"
+		"ypos"			"rs1-65"
 
 		"wide"			"100"
 		"tall"			"50"

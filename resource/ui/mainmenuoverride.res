@@ -1393,7 +1393,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"-8"
+		"xpos"			"-4"
 		"ypos"			"-4"
 		"zpos"			"0"
 		"wide"			"24"
@@ -1448,7 +1448,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RefreshHudButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1490,7 +1490,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapItemtestButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1532,7 +1532,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1574,7 +1574,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StoreButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1616,7 +1616,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTDButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1658,7 +1658,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ContrackerButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1700,7 +1700,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1742,7 +1742,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MutePlayersButton"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1784,7 +1784,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1888,7 +1888,7 @@
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"c-290"
 		"ypos"			"410"
-		"wide"			"125"
+		"wide"			"89"
 		"tall"			"32"
 
 		"pinCorner"		"3"
@@ -1940,9 +1940,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-155"
-		"ypos"			"410"
-		"wide"			"88"
+		"xpos"			"5"
+		"ypos"			"0"
+		"wide"			"94"
 		"tall"			"32"
 
 		"pinCorner"		"3"
@@ -1971,6 +1971,10 @@
 		"border_armed"				"rounded_dark_32x"
 		"image_drawcolor"			"140 96 183 255"
 		"image_armedcolor"			"181 150 211 255"
+
+		"pin_to_sibling"		"CharacterSetupButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"	
 
 		"SubImage"
 		{
@@ -2027,40 +2031,87 @@
 		"border_armed"				"rounded_dark_32x"
 	}
 
+	//open safemode panel
+	"CustomizationMenuButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CustomizationMenuButton"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+
+		"pin_to_sibling"		"TF2SettingsButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"	
+
+		SubButton 
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+
+			"labelText"		""
+			"font"			"icon25"
+			"textAlignment"	"center"
+
+			"paintbackground"		"0"
+			"paintborder"			"1"
+			"proportionaltoparent"	"1"
+
+			"sound_armed"		"ui/ui_select.wav"
+			"sound_depressed"	"ui/ui_decide.wav"
+
+			"defaultFgColor_override"	"gravy_primary"
+			"armedFgColor_override"		"gravy_primary_light"
+			"border_default"			"rounded_darkest_32x"
+			"border_armed"				"rounded_dark_32x"
+		}
+	}
+
+
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
-		"xpos"			"c-290"
-		"ypos"			"210"
-		"zpos"			"-50"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"			"50"
 		"wide"			"270"
-		"tall"			"190"
+		"tall"			"265"
 		"visible"		"0"
+
+		"pin_to_sibling"		"RankBorder"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"0"
-			"ypos"			"20"
+			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"260"
-			"tall"			"p0.88"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"rounded_darkest_32x"
 
 			"TitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_SafeMode_Title"
-				"textAlignment"	"west"
+				"font"			"sugar-25"
+				"labelText"		"Customization"
+				"textAlignment"	"center"
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"f0"
@@ -2070,80 +2121,47 @@
 				"visible"		"1"
 
 				"textinsetx"	"20"
-				"fgcolor_override"	"235 227 203 255"
-			}
-	
-			"SaveSettingsButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SaveSettingsButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-30"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
-
-				"pinCorner"		"3"
-				"visible"		"1"
-
-
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
-
-
-				"default"		"1"
-				"sound_depressed"	"ui/ui_decide.wav"
-
-				"labeltext"		"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_save_settings"
-				"actionsignallevel"	"3"
-			
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"fgcolor_override"	"gravy_primary"
 			}
 
-	
 			"LeaveSafeModeButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SubButton"
-				"xpos"			"p0.02"
-				"ypos"			"rs1-5"
-				"zpos"			"11"
-				"wide"			"250"
-				"tall"			"26"
+				"ControlName"	"CExImageButton"
+				"fieldName"		"LeaveSafeModeButton"
+				"xpos"			"rs1-8"
+				"ypos"			"8"
+				"wide"			"32"
+				"tall"			"32"
 
 				"pinCorner"		"3"
 				"visible"		"1"
 
 
-				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
+				"textinsetx"				"32"
+				"font"						"icon25"
+				"textAlignment"				"west"
+				"use_proportional_insets" 	"1"
 
+				"default"					"1"
+				"labeltext" 				"y"
+				"command" 					"safemode_leave"
+				"proportionaltoparent"		"1"
 
-				"default"		"1"
-				"sound_depressed"	"ui/ui_decide.wav"
+				"sound_armed"				"ui/ui_select.wav"
+				"sound_depressed"			"ui/ui_decide.wav"
+					
+				"paintbackground"			"0"
 
-				"labeltext"		"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_leave"
-				"actionsignallevel"	"3"
-			
-				"border_default"	"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultfgcolor_override"	"gravy_offwhite"
+				"armedFgColor_override"		"gravy_primary_light"
+				"border_default"			"rounded_darkest_32x"
+				"border_armed"				"rounded_dark_32x"
+				"image_drawcolor"			"140 96 183 255"
+				"image_armedcolor"			"181 150 211 255"
+
+				"pin_to_sibling"		"CharacterSetupButton"
+				"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"		
 			}
 
 			"Explanation"
@@ -2156,7 +2174,7 @@
 				"wide"					"p0.92"
 				"tall"					"p0.5"
 				"textAlignment"			"north-west"
-				"visible"				"1"
+				"visible"				"0"
 
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
@@ -2177,7 +2195,7 @@
 			"zpos"					"100"
 			"wide"					"40"
 			"tall"					"o1"
-			"visible"				"1"
+			"visible"				"0"
 
 			"image"					"info"
 			"scaleImage"			"1"

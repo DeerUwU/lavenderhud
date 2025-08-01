@@ -209,6 +209,53 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 		}
+		"BuildingPanel"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BuildingPanel"
+			"xpos"					"30"
+			"ypos"					"0"
+			"zpos"					"5"
+			"wide"					"f0"
+			"tall"					"f0"
+			"visible"				"0"
+			"proportionaltoparent"	"1"
+
+			"BuildingLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"BuildingLabel"
+				"font"			"jua8"
+				"xpos"			"0"
+				"ypos"			"cs-0.5-4"
+				"wide"			"45"
+				"tall"			"12"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"#Building_hud_building"
+				"textAlignment"	"west"
+
+				"proportionaltoparent"	"1"
+			}
+			
+			"BuildingProgress"
+			{	
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"BuildingProgress"
+				"font"			"Default"
+				"xpos"			"0"
+				"ypos"			"cs-0.5+4"
+				"wide"			"45"
+				"tall"			"4"				
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"textAlignment"	"west"
+
+				"proportionaltoparent"	"1"
+			}
+		}
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -286,10 +333,16 @@
 				"pin_to_sibling"					"Shells"
 			}
 		}
+	}
 
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"BuildingPanel"{"ControlName" "EditablePanel" "fieldName" "BuildingPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}}
-	"Background"{"ControlName" "CIconPanel" "fieldName" "Background" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Background"
+	{
+		"ControlName" 	"CIconPanel" 
+		"fieldName" 	"Background" 
+		"xpos" 			"9999" 
+		"ypos" 			"9999" 
+		"wide" 			"0" 
+		"tall" 			"0" 
+		"visible" 		"0" 
+	}
 }
