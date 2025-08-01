@@ -24,7 +24,7 @@
 		"tall"					"f2"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
-		"border"				"rounded_inner_darkest"
+		"border"				"rounded_inner_xpbar"
 		"mouseinputenabled"		"0"
 	}
 

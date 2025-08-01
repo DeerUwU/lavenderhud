@@ -129,8 +129,8 @@
 		"labeltext"		"#TF_Matchmaking_StartSearch"
 		"font"			"milku25"
 		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"textinsety"	"2"
+		"textinsetx"	"40"
+		"textinsety"	"0"
 
 		"Command"					"find_game"
 		"default"					"1"
@@ -149,7 +149,7 @@
 		"armedfgcolor_override"		"gravy_darkest"
 		"depressedFgColor_override"	"gravy_darkest"
 		"border_default"			"rounded_dark_32x"
-		"border_armed"				"rounded_primary_dark_32x"
+		"border_armed"				"rounded_primary_32x"
 		"border_depressed"			"rounded_primary_dark_32x"
 		"image_drawcolor"			"35 28 36 255"
 		"image_armedcolor"			"35 28 36 255"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"2"
+			"xpos"			"rs1-2"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
 			"wide"			"28"

@@ -314,20 +314,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"OuterShadow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"0"
-				"proportionaltoparent"	"1"
-
-				"border"		"rounded_darkest_32x"
-			}
 
 			"BGPanel"
 			{
@@ -405,7 +391,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 
-				"font"				"milku15"
+				"font"				"jua15"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"		"west"
 				"labelText"			"%queue_state%"
@@ -467,8 +453,8 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"rs1-6"
-				"ypos"			"10"
+				"xpos"			"rs1-8"
+				"ypos"			"cs-0.5"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -484,7 +470,7 @@
 				"actionsignallevel"		"3"
 				"paintbackground"		"0"
 			
-				"defaultFgColor_override" 	"gravy_offwhite"
+				"defaultFgColor_override" 	"gravy_dark"
 				"armedFgColor_override" 	"gravy_primary"
 				"depressedFgColor_override" "gravy_primary_dark"
 			
@@ -508,20 +494,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"OuterShadow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"border"		"OuterShadowBorderThin"
-			}
 
 			"BGPanel"
 			{
@@ -530,12 +502,12 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"0"
-				"wide"			"f6"
-				"tall"			"f6"
+				"wide"			"f4"
+				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"rounded_darkest_32x"
 			}
 
 			"PromptText"
@@ -549,12 +521,12 @@
 				"tall"			"f0"
 				"visible"		"1"
 
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"west"
-				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
+				"font"					"jua15"
+				"fgcolor_override"		"gravy_offwhite"
+				"textAlignment"			"west"
+				"labelText"				"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
+				"mouseinputenabled"		"0"
 			}		
 
 			"JoinNowButton"
@@ -565,35 +537,40 @@
 				"ypos"			"rs1-9"
 				"wide"			"40"
 				"zpos"			"100"
-				"tall"			"15"
+				"tall"			"16"
 
-				if_queued
-				{
-					"xpos"			"cs-0.5"
-					"wide"			"150"
-				}
 				
 
 				"pinCorner"		"3"
 				"visible"		"1"
 
 
-				"font"			"HudFontSmallestBold"
+				"font"			"jua12"
 				"textAlignment"	"center"
-
-
-				"Command"		"join_party_match"
-				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
-				"mouseinputenabled"	"1"
+				"Command"		"join_party_match"
+
+				
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"		"1"
 				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"3"
+				"actionsignallevel"		"3"
+				"paintBackground"		"0"
+				"paintBorder"			"1"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"border_default"		"rounded_primary_16x"
+				"border_armed"			"rounded_primary_light_16x"
+				"border_depressed"		"rounded_primary_dark_16x"
+				
 
-				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_armed"		"ui/ui_select.wav"
+				"sound_depressed"	"ui/ui_decide.wav"
 
+				if_queued
+				{
+					"xpos"			"cs-0.5"
+					"wide"			"150"
+				}
 			}
 		}
 
