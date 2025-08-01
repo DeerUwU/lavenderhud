@@ -635,6 +635,8 @@
 			"armedBgColor_override"		"blank"
 			"depressedBgColor_override"	"gravy_primary"
 			
+			"FgColor" 					"gravy_primary_light"
+			"FgColor_override" 			"gravy_primary_light"
 			"defaultFgColor_override" 	"gravy_primary_light"
 			"armedFgColor_override" 	"gravy_primary"
 			"selectedFgColor_override" 	"gravy_primary_dark"
@@ -643,23 +645,6 @@
 			"border_armed"				"null"
 			"border_selected"			"rounded_primary_24x"
 			"border_depressed"			"rounded_primary_24x"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"0"
-
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"icon_resume"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"FindAGameButton"
@@ -685,19 +670,17 @@
 			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"		"2"
-			// "textinsety"			"2.5"
-			// "textinsetx"			"26"
-			// "use_proportional_insets"	"1"
 
-			"sound_armed"		"ui/ui_select.wav"
-			"sound_depressed"	"ui/ui_decide.wav"
+			"sound_armed"			"ui/ui_select.wav"
+			"sound_depressed"		"ui/ui_decide.wav"
 
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
 			"depressedBgColor_override"	"gravy_primary"
 
-			"defaultFgColor_override" "GreenSolid"
-			"armedFgColor_override" "CreditsGreen"
+			"FgColor" 					"GreenSolid"
+			"defaultFgColor_override" 	"GreenSolid"
+			"armedFgColor_override" 	"CreditsGreen"
 		}
 
 		"FindAGameButtonCustom"
@@ -723,13 +706,14 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"		"2"
 
-			"sound_armed"		"ui/ui_select.wav"
-			"sound_depressed"	"ui/ui_decide.wav"
+			"sound_armed"			"ui/ui_select.wav"
+			"sound_depressed"		"ui/ui_decide.wav"
 
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
 			"depressedBgColor_override"	"gravy_primary"
 
+			"FgColor" 					"GreenSolid"
 			"defaultFgColor_override" 	"GreenSolid"
 			"armedFgColor_override" 	"CreditsGreen"
 
@@ -759,9 +743,6 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"		"2"
 			"paintBackground"		"0"
-			// "textinsety"			"2.5"
-			// "textinsetx"			"26"
-			// "use_proportional_insets"	"1"
 
 			"sound_armed"		"ui/ui_select.wav"
 			"sound_depressed"	"ui/ui_decide.wav"
@@ -769,6 +750,7 @@
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
 			"depressedBgColor_override"	"gravy_primary"
+			"FgColor" 					"192 28 0 50"
 			"defaultFgColor_override" 	"192 28 0 50"
 			"armedFgColor_override" 	"192 28 0 150"
 
@@ -808,6 +790,7 @@
 			"defaultBgColor_override"	"blank"
 			"armedBgColor_override"		"blank"
 			"depressedBgColor_override"	"gravy_primary"
+			"FgColor" 					"192 28 0 50"
 			"defaultFgColor_override" 	"192 28 0 50"
 			"armedFgColor_override" 	"192 28 0 150"
 

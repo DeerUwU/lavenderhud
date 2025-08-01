@@ -1,3 +1,6 @@
+#base "../../cfg/#lavhud_custom.txt"		//windows
+#base "../../../../cfg/#lavhud_custom.txt"	//linux
+
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"HudWeaponAmmoBG"
@@ -9,7 +12,7 @@
 		"zpos"			"-100"
 		"wide"			"120"
 		"tall"			"40"
-		"visible"		"1"
+		////"visible"		"1"
 		"border"		"rounded_trans_darkest_32x"
 		"proportionaltoparent"	"1"
 	}	

@@ -136,12 +136,4 @@
 	// 	"subimage" 		"glyph_tv"
 	// 	"tooltip" 		"Replays"
 	// }
-
-	// "SafeModeButton"
-	// {
-	// 	"label"			""
-	// 	"command"		"engine sv_cheats 1;sv_allow_wait_command 1; wait 100; cl_mainmenu_safemode 1"
-	// 	"subimage" 		""
-	// 	"tooltip" 		"Loophud Customization"
-	// }
 }

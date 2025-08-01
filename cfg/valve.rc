@@ -1,6 +1,6 @@
 // run a user script file if present
-exec autoexec.cfg
 exec config.cfg
+exec autoexec.cfg
 
 // stuff command line statements
 stuffcmds
@@ -9,10 +9,10 @@ stuffcmds
 exec required.cfg
 
 
-alias gravyhud_initial "exec gravyhud_initialize"
-exec #gravyhud_initial.txt
-gravyhud_initial
+alias lavhud_initial "exec lavhud_initialize"
+exec #lavhud_initial.txt
+lavhud_initial
 
 
 //run all the alias commands
-exec gravyhud.cfg
+exec lavhud.cfg

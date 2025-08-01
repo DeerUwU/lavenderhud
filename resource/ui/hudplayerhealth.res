@@ -1,3 +1,6 @@
+#base "../../cfg/#lavhud_custom.txt"		//windows
+#base "../../../../cfg/#lavhud_custom.txt"	//linux
+
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
@@ -68,16 +71,16 @@
 		"fgcolor"			"gravy_primary_dark"
 		"pin_to_sibling" 	"PlayerStatusHealthValue"
 	}
-	"HealthBG"
+	"HudWeaponAmmoBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HealthBG"
+		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"rs1-100"
 		"ypos"			"c-20"
 		"zpos"			"-100"
 		"wide"			"120"
 		"tall"			"40"
-		"visible"		"1"
+		////"visible"		"1"
 		"border"		"rounded_trans_darkest_32x"
 		"proportionaltoparent"	"1"
 	}	

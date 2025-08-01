@@ -1,5 +1,5 @@
-#base "../../cfg/#deerhud_custom.txt"		//windows
-#base "../../../../cfg/#deerhud_custom.txt"	//linux
+#base "../../cfg/#lavhud_custom.txt"		//windows
+#base "../../../../cfg/#lavhud_custom.txt"	//linux
 
 "Resource/UI/HudPlayerClass.res"
 {	
@@ -27,7 +27,7 @@
 		"zpos"			"5"
 		"wide"			"75"
 		"tall"			"75"
-		"visible"		"0" // remove this to add customization toggle later
+		"visible"		"0"
 
 		"image"			"replay/thumbnails/null"
 		"scaleImage"	"1"	
@@ -37,6 +37,7 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
+		////"xpos"		"0"
 		"ypos"			"rs1.0"
 		"zpos"			"2"
 		"wide"			"75"

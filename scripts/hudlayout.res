@@ -1,17 +1,20 @@
+#base "../../cfg/#lavhud_custom.txt"		//windows
+#base "../../../../cfg/#lavhud_custom.txt"	//linux
+
 "Resource/HudLayout.res"
 {
-	chromatic
+	MainShader
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"chromatic"
+		"fieldName"		"MainShader"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-10000"
 		"wide"			"f0"
 		"tall"			"480"
 		"scaleimage"	"1"
-		"visible"		"0"
-		"image"			"replay/thumbnails/shaders/chromatic"
+		//// "visible"		"0"
+		//// "image"		"replay/thumbnails/shaders/chromatic"
 	}
 	HudPlayerStatus
 	{

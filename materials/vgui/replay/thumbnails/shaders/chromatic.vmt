@@ -5,8 +5,8 @@ screenspace_general
 	$pixshader "vel_based_chromatic_ps20"
 
 	// Textures to use
-	// Use _rt_PowerOfTwoFB to fetch the screen texture (framebuffer)
-	$basetexture "_rt_PowerOfTwoFB"
+	// Use _rt_PowerOfTwoFB or _rt_FullFrameFB to fetch the screen texture (framebuffer)
+	$basetexture "_rt_FullFrameFB"
 	$texture1    ""
 	$texture2    ""
 	$texture3    ""
@@ -30,7 +30,7 @@ screenspace_general
 
 	// 16 customizable parameters that are passed to the shader
 	$c0_x     0.0
-	$c0_y     0.0 // effect strength
+	$c0_y     0.0
 	$c0_z     0.0
 	$c0_w     0.0
 	$c1_x     0.0
@@ -57,7 +57,7 @@ screenspace_general
 
 		PlayerSpeed
 		{
-			"scale"				"0.00003"
+			"scale"				"0.00001" // LAVENDERHUD: effect strength
 			"resultVar"			"$c0_y"
 		}
 	}

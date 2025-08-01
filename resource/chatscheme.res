@@ -380,7 +380,7 @@
 			{
 				"name"										"jua-regular-extended"
 				"tall"										"12"
-				"weight"									"700"
+				"weight"									"500"
 				"yres"										"480 599"
 				"dropshadow"								"1"
 				"antialias"									"1"
@@ -389,7 +389,7 @@
 			{
 				"name"										"jua-regular-extended"
 				"tall"										"14"
-				"weight"									"700"
+				"weight"									"500"
 				"yres"										"600 767"
 				"dropshadow"								"1"
 				"antialias"									"1"
@@ -398,7 +398,7 @@
 			{
 				"name"										"jua-regular-extended"
 				"tall"										"15"
-				"weight"									"700"
+				"weight"									"500"
 				"yres"										"768 1023"
 				"dropshadow"								"1"
 				"antialias"									"1"
@@ -407,7 +407,7 @@
 			{
 				"name"										"jua-regular-extended"
 				"tall"										"17"
-				"weight"									"700"
+				"weight"									"500"
 				"yres"										"1024 1199"
 				"dropshadow"								"1"
 				"antialias"									"1"
