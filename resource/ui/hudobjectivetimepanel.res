@@ -2,14 +2,14 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"16"
 		"ypos"			"9"
 		"zpos"			"2"
 		"wide"			"78"
 		"tall"			"33"
-		"visible"		"1"
+		"visible"		"0"
 
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
@@ -23,15 +23,15 @@
 	{
 		"ControlName"		"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
-		"ypos"				"16"
+		"xpos"				"78"
+		"ypos"				"2"
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
 		"visible"			"1"
 		"scaleImage"			"1"
-		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"			"TimerProgress.Active"
+		"image"					"../hud/objectives_timepanel_progressbar"
+		"color_active"			"gravy_primary_light"
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
@@ -45,39 +45,33 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
-		"ypos"			"37"
+		"xpos"			"cs-0.5"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
 
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
 
 		"wrap"			"0"
 		"font"			"milku8"
 
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"21"
-
 			"wide"					"p1"
-			"font"					"milku8"
-
-
 		}
 	}			
-	"WaitingForPlayersBG"
+	"WaitingForPlayersBG" // removing this removes the "waiting for players" text???
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"
 		"ypos"			"31"
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"visible"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	

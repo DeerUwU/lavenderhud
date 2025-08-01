@@ -218,16 +218,19 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"AmmoHealthBgSettingPanel"
-				"xpos"				"cs-0.5"
-				"ypos"				"85"
+				"xpos"				"0"
+				"ypos"				"4"
 				"zpos"				"1"
 				"wide"				"f8"
 				"tall"				"45"
+				"border"			"rounded_dark_24x"
 
-				"visible"				"1"
+				"visible"			"1"
 				"proportionaltoparent"	"1"
 
-				"border"			"rounded_dark_24x"
+				"pin_to_sibling"		"ClassIconPanel"
+				"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+				"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 
 				"Title"
 				{
@@ -308,20 +311,120 @@
 				}
 			} // end ammo health bg setting
 
-			"ShaderSettingPanel"
+			"UseMatchHudPanel"
 			{
 				"ControlName"		"EditablePanel"
-				"fieldName"			"ShaderSettingPanel"
-				"xpos"				"cs-0.5"
-				"ypos"				"134"
+				"fieldName"			"UseMatchHudPanel"
+				"xpos"				"0"
+				"ypos"				"4"
 				"zpos"				"1"
 				"wide"				"f8"
 				"tall"				"45"
+				"border"			"rounded_dark_24x"
 
 				"visible"			"1"
 				"proportionaltoparent"	"1"
 
+				"pin_to_sibling"		"AmmoHealthBgSettingPanel"
+				"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+				"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+
+				"Title"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Title"
+					"font"			"sugar-20"
+					"fgcolor"		"gravy_primary"
+					"labelText"		"Hud Playerlists"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"
+					"wide"			"f0"
+					"tall"			"20"
+
+					"visible"		"1"
+
+					"proportionaltoparent"	"1"
+				}
+
+				"ShowButton"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ShowButton"
+					"font"			"Jua15"
+					"fgcolor"		"gravy_primary"
+					"labelText"		"Show"
+					"textAlignment"	"center"
+					"xpos"			"cs-1-4"
+					"ypos"			"20"
+					"wide"			"100"
+					"tall"			"20"
+
+					"paintbackground"		"0"
+					"paintborder"			"1"
+					"proportionaltoparent"	"1"
+					"actionsignallevel"		"4"
+					"command"				"engine tf_use_match_hud 1"
+
+					"sound_armed"				"ui/ui_select.wav"
+					"sound_depressed"			"ui/ui_decide.wav"
+
+					"defaultFgColor_override"	"gravy_primary"
+					"armedFgColor_override"		"gravy_darkest"
+					"border_default"			"rounded_darkest_16x"
+					"border_armed"				"rounded_primary_16x"
+
+					"visible"				"1"
+				}
+				"HideButton"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HideButton"
+					"font"			"Jua15"
+					"fgcolor"		"gravy_primary"
+					"labelText"		"Hide"
+					"textAlignment"	"center"
+					"xpos"			"c4"
+					"ypos"			"20"
+					"wide"			"100"
+					"tall"			"20"
+
+					"paintbackground"		"0"
+					"paintborder"			"1"
+					"proportionaltoparent"	"1"
+					"actionsignallevel"		"4"
+					"command"				"engine tf_use_match_hud 0"
+
+					"sound_armed"				"ui/ui_select.wav"
+					"sound_depressed"			"ui/ui_decide.wav"
+
+					"defaultFgColor_override"	"gravy_primary"
+					"armedFgColor_override"		"gravy_darkest"
+					"border_default"			"rounded_darkest_16x"
+					"border_armed"				"rounded_primary_16x"
+
+					"visible"				"1"
+				}
+			} // end UseMatchHudPanel
+
+			"ShaderSettingPanel"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"ShaderSettingPanel"
+				"xpos"				"0"
+				"ypos"				"4"
+				"zpos"				"1"
+				"wide"				"f8"
+				"tall"				"45"
 				"border"			"rounded_dark_24x"
+
+				"visible"			"1"
+				"proportionaltoparent"	"1"
+
+				"pin_to_sibling"		"UseMatchHudPanel"
+				"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+				"pin_corner_to_sibling"	"PIN_CENTER_TOP"
 
 				"Title"
 				{

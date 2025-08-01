@@ -9,5 +9,7 @@
 *.tga~
 *.psd
 *.ai
+*.zip
+*.7z
 sound/sound.cache
 .assets/

@@ -54,14 +54,13 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 
-		"xpos"	"c-100"
+		"xpos"	"cs-0.5"
 		"ypos"	"0"
-		"wide"	"200"
+		"wide"	"254"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
-	
-		"red_active_xpos"			"106"
+		"blue_active_xpos"			"0"
+		"red_active_xpos"			"150"
 	}	
 
 	HudItemEffectMeter
@@ -208,7 +207,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
+		"xpos"					"50"
 		"ypos"					"r152"
 		"wide"					"116"
 		"tall"  				"180"

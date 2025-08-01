@@ -887,6 +887,23 @@ Scheme
 			"draw_corner_height" 	"3"
 		}
 
+
+
+		rounded_primary_28x
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"paintfirst"			"1"
+			"color"					"gravy_primary"
+			
+			"image"					"replay/thumbnails/borders/tintable_round_256x"
+			
+			"src_corner_height"		"128"				// pixels inside the image
+			"src_corner_width"		"128"
+			"draw_corner_width"		"14"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"14"	
+		}
+
 		
 	} // end borders
 } // end scheme

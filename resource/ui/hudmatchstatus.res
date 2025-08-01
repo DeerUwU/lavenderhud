@@ -304,18 +304,18 @@
 			"font"			"jua12"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"ypos"			"0"
+			"ypos"			"1"
 			"zpos"			"3"
 			"wide"			"45"
-			"tall"			"23"
+			"tall"			"24"
 			"visible"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
 
+			"proportionaltoparent"	"1"
+
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
 				"xpos"			"cs-0.5"
 			}
 		}	
