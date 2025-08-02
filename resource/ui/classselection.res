@@ -151,7 +151,7 @@
 		"Command"			"select 1"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"		"2"
@@ -202,10 +202,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ScoutButtonIcon"
 		"xpos"			"-4"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"16"
-		"tall"			"16"
+		"tall"			"20"
 		"visible"		"1"
 
 		"font"			"icon20"
@@ -301,7 +301,7 @@
 		"Command"			"select 3"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -453,7 +453,7 @@
 		"Command"			"select 7"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -506,10 +506,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"pyroButtonIcon"
 		"xpos"			"-4"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"16"
-		"tall"			"16"
+		"tall"			"20"
 		"visible"		"1"
 
 		"font"			"icon20"
@@ -605,7 +605,7 @@
 		"Command"			"select 4"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -758,7 +758,7 @@
 		"Command"			"select 6"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -911,7 +911,7 @@
 		"Command"			"select 9"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -1064,7 +1064,7 @@
 		"Command"			"select 5"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -1217,7 +1217,7 @@
 		"Command"			"select 2"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"
@@ -1270,10 +1270,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"sniperButtonIcon"
 		"xpos"			"-4"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"16"
-		"tall"			"16"
+		"tall"			"20"
 		"visible"		"1"
 
 		"font"			"icon20"
@@ -1369,7 +1369,7 @@
 		"Command"			"select 8"
 		"textAlignment"		"south-west"
 		"textinsetx"		"24"
-		"textinsety"		"1"
+		"textinsety"		"0"
 
 		"use_proportional_insets"	"1"
 		"actionsignallevel"			"2"

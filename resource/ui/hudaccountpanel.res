@@ -1,3 +1,6 @@
+#base "../../cfg/#lavhud_custom.txt"		//windows
+#base "../../../../cfg/#lavhud_custom.txt"	//linux
+
 "Resource/UI/HudAccountPanel.res"
 {
 	"CHudAccountPanel"
@@ -11,30 +14,25 @@
 		"delta_item_font"		"jua15"
 	}
 	
-	"AccountBG"
+	"HudWeaponAmmoBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AccountBG"
-		"xpos"			"5"
-		"ypos"			"103"
-		"zpos"			"0"
-		"wide"			"84"
-		"tall"			"42"
-		"visible"		"0"
-
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-
-	}
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HudWeaponAmmoBG"
+		"xpos"					"cs-0.5"
+		"ypos"					"12"
+		"zpos"					"-100"
+		"wide"					"32"
+		"tall"					"12"
+		////"visible"			"1"
+		"border"				"rounded_trans_darkest_8x"
+		"proportionaltoparent"	"1"
+	}	
 	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"cs-0.5-15" 
+		"xpos"			"cs-0.5-11" 
 		"ypos"			"15" 
 		"zpos"			"1"
 		"wide"			"6" 
@@ -51,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.5+4"
 		"ypos"			"5"
 
 		"zpos"			"2"

@@ -238,7 +238,7 @@
 					"fieldName"		"Title"
 					"font"			"sugar-20"
 					"fgcolor"		"gravy_primary"
-					"labelText"		"Ammo & Health BG"
+					"labelText"		"Hud element Backgrounds"
 					"textAlignment"	"center"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -354,7 +354,7 @@
 					"fieldName"		"ShowButton"
 					"font"			"Jua15"
 					"fgcolor"		"gravy_primary"
-					"labelText"		"Show"
+					"labelText"		"On"
 					"textAlignment"	"center"
 					"xpos"			"cs-1-4"
 					"ypos"			"20"
@@ -383,7 +383,7 @@
 					"fieldName"		"HideButton"
 					"font"			"Jua15"
 					"fgcolor"		"gravy_primary"
-					"labelText"		"Hide"
+					"labelText"		"Off"
 					"textAlignment"	"center"
 					"xpos"			"c4"
 					"ypos"			"20"
@@ -416,7 +416,7 @@
 				"ypos"				"4"
 				"zpos"				"1"
 				"wide"				"f8"
-				"tall"				"45"
+				"tall"				"65"
 				"border"			"rounded_dark_24x"
 
 				"visible"			"1"
@@ -444,6 +444,25 @@
 
 					"proportionaltoparent"	"1"
 				}
+				"Description"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Description"
+					"font"			"Jua12"
+					"fgcolor"		"gravy_primary_light"
+					"labelText"		"warning: shaders may cause visual bugs like a black screen, please test if they work."
+					"textAlignment"	"west"
+					"wrap"			"1"
+					"xpos"			"cs-0.5"
+					"ypos"			"17"
+					"zpos"			"2"
+					"wide"			"f10"
+					"tall"			"20"
+
+					"visible"		"1"
+
+					"proportionaltoparent"	"1"
+				}
 
 				"ChromaticButton"
 				{
@@ -454,7 +473,7 @@
 					"labelText"		"Chromatic"
 					"textAlignment"	"center"
 					"xpos"			"cs-1-4"
-					"ypos"			"20"
+					"ypos"			"40"
 					"wide"			"100"
 					"tall"			"20"
 
@@ -483,7 +502,7 @@
 					"labelText"		"Off"
 					"textAlignment"	"center"
 					"xpos"			"c4"
-					"ypos"			"20"
+					"ypos"			"40"
 					"wide"			"100"
 					"tall"			"20"
 

@@ -1,3 +1,7 @@
+#base "../../cfg/#lavhud_custom.txt"		//windows
+#base "../../../../cfg/#lavhud_custom.txt"	//linux
+
+
 "Resource/UI/HudDemomanPipes.res"
 {
 	"ItemEffectMeterBG" // only for shield charge
@@ -99,6 +103,21 @@
 
 		"proportionaltoparent"	"1"
 		
+		// doesnt work in customization because its nested bwah
+		//"HudWeaponAmmoBG"
+		//{
+		//	"ControlName"			"EditablePanel"
+		//	"fieldName"				"HudWeaponAmmoBG"
+		//	"xpos"					"cs-0.5"
+		//	"ypos"					"12"
+		//	"zpos"					"-100"
+		//	"wide"					"30"
+		//	"tall"					"12"
+		//	////"visible"			"1"
+		//	"border"				"rounded_trans_darkest_8x"
+		//	"proportionaltoparent"	"1"
+		//}	
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -177,7 +196,7 @@
 		"visible"		"1"
 
 		"proportionaltoparent"	"1"
-		
+
 		"PipeIcon"
 		{
 			"ControlName"	"CTFImagePanel"

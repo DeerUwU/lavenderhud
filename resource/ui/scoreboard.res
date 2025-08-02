@@ -98,6 +98,27 @@
 		}
 	}
 	// -------------------------------------------------------
+
+	"Teamscores_BG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Teamscores_BG"
+		"xpos"			"cs-0.5"
+		"ypos"			"50"
+		"zpos"			"-2"
+		"wide"			"633"
+		"tall"			"44"
+		"visible"		"1"
+
+			
+		"PaintBackground"	"0"
+		"border"			"rounded_darkest_32x"
+
+		if_mvm
+		{
+			"ypos"			"370"
+		}
+	}
 	"BlueScoreUnderline"
 	{
 		"ControlName"	"EditablePanel"
@@ -105,7 +126,7 @@
 		"xpos"			"cs-1-7"
 		"ypos"			"83"
 		"zpos"			"3"
-		"wide"			"308"
+		"wide"			"300"
 		"tall"			"4"
 		"visible"		"1"
 		"border"			"underline_blu"
@@ -122,7 +143,7 @@
 		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"2"
-		"wide"				"308"
+		"wide"				"300"
 		"tall"				"4"
 		"visible"			"1"
 		"border"			"underline_blu_shadow"
@@ -141,7 +162,7 @@
 		"xpos"				"c5"
 		"ypos"				"83"
 		"zpos"				"3"
-		"wide"				"308"
+		"wide"				"300"
 		"tall"				"4"
 		"visible"			"1"
 		"border"			"underline_red"
@@ -158,7 +179,7 @@
 		"xpos"				"-2"
 		"ypos"				"-2"
 		"zpos"				"2"
-		"wide"				"308"
+		"wide"				"300"
 		"tall"				"4"
 		"visible"			"1"
 		"border"			"underline_red_shadow"
@@ -263,7 +284,7 @@
 		"fgcolor"		"gravy_team_blu_light"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
-		"xpos"			"cs-1-112"
+		"xpos"			"cs-1-106"
 		"ypos"			"41" 
 		"zpos"			"4"
 		"wide"			"200"
@@ -304,7 +325,7 @@
 		"fgcolor"		"gravy_team_red_light"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
-		"xpos"			"c112"
+		"xpos"			"c106"
 		"ypos"			"41" 
 		"zpos"			"4"
 		"wide"			"200"

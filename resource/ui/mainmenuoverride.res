@@ -1160,7 +1160,7 @@
 				"wide"			"220"
 				"tall"			"135"
 				"visible"		"1"
-				"border"		"rounded_dark_32x"
+				"border"		"rounded_dark_16x"
 			}
 		}
 	}
@@ -1393,7 +1393,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ConsoleButton"
-		"xpos"			"-4"
+		"xpos"			"-6"
 		"ypos"			"-4"
 		"zpos"			"0"
 		"wide"			"24"
@@ -1448,7 +1448,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RefreshHudButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1490,7 +1490,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapItemtestButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1532,7 +1532,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1574,7 +1574,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StoreButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1658,7 +1658,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ContrackerButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1700,7 +1700,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1742,7 +1742,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MutePlayersButton"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"
@@ -1784,7 +1784,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"2"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"24"

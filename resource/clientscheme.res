@@ -353,15 +353,16 @@ Scheme
 		RichText.SelectedTextColor		"Gray"
 		RichText.SelectedBgColor		"Red"
 
-		ScrollBarButton.FgColor				"Gray"
+		ScrollBar.Wide						"4"
+		ScrollBarButton.FgColor				"Blank"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Gray"
+		ScrollBarButton.ArmedFgColor		"Blank"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Black"
+		ScrollBarButton.DepressedFgColor	"Blank"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Gray"		// nob color
-		ScrollBarSlider.BgColor				"Blank"		// slider background color
+		ScrollBarSlider.FgColor				"gravy_primary"		// nob color
+		ScrollBarSlider.BgColor				"gravy_dark"		// slider background color
 
 		SectionedListPanel.Font							"jua10"
 		SectionedListPanel.HeaderTextColor				"gravy_primary"
@@ -381,7 +382,7 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.font						"milku10"
+		TextEntry.font						"jua10"
 		TextEntry.TextColor					"gravy_offwhite"
 		TextEntry.BgColor					"Blank"
 		TextEntry.CursorColor				"gravy_primary"

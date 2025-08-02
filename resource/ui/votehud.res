@@ -532,9 +532,9 @@
 	{
 		"ControlName"			"CVoteSetupDialog"
 		"fieldName"				"VoteSetupDialog"
-		"xpos"					"c-300"
+		"xpos"					"cs-0.5"
 		"ypos"					"c-180"
-		"wide"					"600"
+		"wide"					"500"
 		"tall"					"360"
 		"visible"				"1"
 
@@ -552,38 +552,60 @@
 		"issue_fgcolor"				"gravy_offwhite"
 		"issue_fgcolor_disabled"	"gravy_dark"
 		
-		"parameter_width"	"370"
+		"parameter_width"	"300"
 
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabel"
-			"font"				"star40"
+			"font"				"sugar-40"
 			"fgcolor_override"	"gravy_primary"
 			"labelText"			"#TF_Vote_Title"
 			"textAlignment"		"north"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"1"
-			"wide"				"550"
+			"wide"				"f0"
 			"tall"				"40"
 			"visible"			"1"
+
+			"proportionaltoparent"	"1"
 		}
 		"TitleLabelShadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabelShadow"
-			"font"				"star40"
+			"font"				"sugar-40"
 			"fgcolor_override"	"gravy_primary_dark"
 			"labelText"			"#TF_Vote_Title"
 			"textAlignment"		"north"
 			"xpos"				"-2"
 			"ypos"				"-2"
-			"wide"				"550"
+			"wide"				"f0"
 			"tall"				"40"
 			"visible"			"1"
-			"pin_to_sibling"	"TitleLabel"
+
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"		"TitleLabel"
 		}
+		"divider_1"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"divider_1"
+			"xpos"				"cs-0.5"
+			"ypos"				"34"
+			"zpos"				"-1"
+			"wide"				"f20"
+			"tall"				"6"
+			"visible"			"1"
+
+			"proportionaltoparent"	"1"
+
+			"tileHorizontally"	"1"
+			"drawcolor"			"gravy_dark"
+			"image"				"replay/thumbnails/misc/line_dashed_16x"
+		}	
 									
 		"VoteSetupList"
 		{
@@ -606,7 +628,7 @@
 			"xpos"			"190"
 			"ypos"			"38"
 			"zpos"			"2"
-			"wide"			"400"
+			"wide"			"300"
 			"tall"			"280"
 			"visible"		"1"
 			"linespacing"	"16"
@@ -672,7 +694,23 @@
 				"armedfgcolor_override"		"gravy_primary"
 			}
 		}
-			
+		"divider_2"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"divider_2"
+			"xpos"					"cs-0.5"
+			"ypos"					"rs1-38"
+			"zpos"					"-1"
+			"wide"					"f20"
+			"tall"					"6"
+			"visible"				"1"
+
+			"proportionaltoparent"	"1"
+
+			"tileHorizontally"		"1"
+			"drawcolor"				"gravy_dark"
+			"image"					"replay/thumbnails/misc/line_dashed_16x"
+		}	
 		"CallVoteButton"
 		{
 			"ControlName"			"CExImageButton"
@@ -738,16 +776,20 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"4"
+			"font"					"milku20"
 			"labelText"				"#TF_call_vote"
-			"textAlignment"			"center"
+			"textAlignment"			"west"
+			"textinsetx"			"24"
+			"textinsety"			"1"
 
 
 			"Command"				"CallVote"
 			"Default"				"0"
-			"font"					"milku20"
-			"proportionaltoparent"	"1"
-			"paintbackground"		"0"
-			"paintBorder"			"1"
+
+			"use_proportional_insets"	"1"
+			"proportionaltoparent"		"1"
+			"paintbackground"			"0"
+			"paintBorder"				"1"
 
 			"sound_armed"			"UI/buttonrollover.wav"
 			"sound_depressed"		"UI/ui_decide.wav"
@@ -787,17 +829,21 @@
 			"ypos"					"325"
 			"wide"					"128"
 			"tall"					"24"
-			"pinCorner"				"3"
 			"visible"				"1"
 			"tabPosition"			"4"
+
+			"font"					"milku20"
 			"labelText"				"#GameUI_Close"
-			"textAlignment"			"center"
+			"textAlignment"			"west"
+			"textinsetx"			"24"
+			"textinsety"			"1"
 
 			"Command"				"Close"
 			"Default"				"0"
-			"font"					"milku20"
-			"proportionaltoparent"	"1"
-			"paintbackground"		"0"
+			
+			"use_proportional_insets"	"1"
+			"proportionaltoparent"		"1"
+			"paintbackground"			"0"
 
 			"sound_armed"			"UI/buttonrollover.wav"
 			"sound_depressed"		"UI/ui_decide.wav"

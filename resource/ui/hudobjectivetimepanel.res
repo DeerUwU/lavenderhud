@@ -2,23 +2,23 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"TimePanelBG"
-		"xpos"			"16"
-		"ypos"			"9"
-		"zpos"			"2"
-		"wide"			"78"
-		"tall"			"33"
-		"visible"		"0"
-
-		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TimePanelBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"		
+		"wide"				"100"
+		"tall"				"24"
+		"visible"			"1"
+		"paintBackground"	"0"
+		"border"			"rounded_darkest_24x"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
 			"visible"	"0"
 		}
-	}
+	}	
 	"TimePanelProgressBar"
 	{
 		"ControlName"		"CTFProgressBar"

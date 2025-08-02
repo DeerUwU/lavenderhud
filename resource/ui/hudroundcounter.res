@@ -69,6 +69,43 @@
 		"image"					"replay/thumbnails/null"
 		"scaleimage"			"1"
 	}
+	"BackgroundCrop"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundCrop"
+		"xpos"			"cs-0.5"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"102"
+		"tall"			"4"
+		"visible"		"1"
+		"border"		"null"
+
+		"proportionaltoparent"	"1"
+
+		"BackgroundCustom"
+		{
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"BackgroundCustom"
+			"xpos"			"cs-0.5"
+			"ypos"			"-20"
+			"zpos"			"5"
+			"wide"			"102"
+			"tall"			"24"
+			"visible"		"1"
+			"border"		"null"
+
+			"image"					"replay/thumbnails/borders/timepanel"
+				
+			"src_corner_height"		"126"				// pixels inside the image
+			"src_corner_width"		"126"
+			"draw_corner_width"		"12"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"12"
+
+
+			"proportionaltoparent"	"1"
+		}
+	}
 	"BackgroundCustom"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -76,9 +113,9 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"98"
+		"wide"			"102"
 		"tall"			"24"
-		"visible"		"1"
+		"visible"		"0"
 		"border"		"null"
 
 		"image"					"replay/thumbnails/borders/timepanel"

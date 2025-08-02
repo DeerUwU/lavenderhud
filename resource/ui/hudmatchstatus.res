@@ -282,20 +282,6 @@
 			"delta_item_end_y"		"50"
 		}
 
-		"TimePanelBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"TimePanelBG"
-			"xpos"				"cs-0.5"
-			"ypos"				"0"
-			"zpos"				"0"		
-			"wide"				"100"
-			"tall"				"24"
-			"visible"			"1"
-			"paintBackground"	"0"
-			"border"			"rounded_darkest_24x"
-			"proportionaltoparent"	"1"
-		}	
 		
 		"TimePanelValue"
 		{
@@ -317,6 +303,7 @@
 			if_match
 			{
 				"xpos"			"cs-0.5"
+				"tall"			"20"
 			}
 		}	
 	}

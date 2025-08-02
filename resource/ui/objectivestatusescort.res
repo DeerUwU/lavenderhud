@@ -185,13 +185,15 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"jua10"		
-			"fgcolor"		"gravy_offwhite"
-			"xpos"			"0"		
-			"ypos"			"rs1"		
-			"zpos"			"2"
-			"wide"			"10"
-			"tall"			"10"
+			"fgcolor"		"gravy_darkest"
+			"xpos"			"cs-0.5"		
+			"ypos"			"rs1-13"		
+			"zpos"			"6"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
+
+			"proportionaltoparent"	"1"
 
 			"labelText"		"%recede%"
 			"textAlignment"	"center"	
@@ -200,7 +202,7 @@
 			{
 				"xpos"			"21"
 				"wide"			"11"
-				"tall"			"10"
+				"tall"			"11"
 			}		
 			"if_multiple_trains_top"
 			{
