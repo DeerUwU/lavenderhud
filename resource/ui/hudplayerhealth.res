@@ -15,9 +15,9 @@
 		"tall"			"p0.5"
 		"visible"		"1"
 
-		"proportionaltoparent"	"1"
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"proportionaltoparent"		"1"
+		"HealthBonusPosAdj"			"35"
+		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 	"PlayerStatusHealthImage" //white cross
@@ -112,7 +112,7 @@
         "ControlName"                               "Panel"
         "fieldName"                                 "HealthAnchor"
         "xpos"										"rs1-155"
-		"ypos"										"c-55"
+		"ypos"										"c-58"
         "zpos"                                      "0"
         "wide"                                      "10"
         "tall"                                      "10"
@@ -124,15 +124,53 @@
     {
         "ControlName"                               "ImagePanel"
         "fieldName"                                 "HealthImageBonus"
-        "xpos"                                      "-0"
+        "xpos"                                      "0"
         "ypos"                                      "0"
+        "zpos"                                      "0"
+        "wide"                                      "64"
+        "tall"                                      "64"
+        "visible"                                   "0"
+
+        "alpha"                                     "0"
+        "image"                                     "replay/thumbnails/misc/health_halo"
+        "scaleImage"                                "1"
+
+        "pin_to_sibling"                            "HealthAnchor"
+        "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
+        "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
+    }
+	"HealthImageBonusLeft"
+    {
+        "ControlName"                               "ImagePanel"
+        "fieldName"                                 "HealthImageBonusLeft"
+        "xpos"                                      "-40"
+        "ypos"                                      "-26"
         "zpos"                                      "0"
         "wide"                                      "64"
         "tall"                                      "64"
         "visible"                                   "1"
 
         "alpha"                                     "0"
-        "image"                                     "replay/thumbnails/temp/overheal_mm"
+        "image"                                     "replay/thumbnails/misc/health_stars_left"
+        "scaleImage"                                "1"
+
+        "pin_to_sibling"                            "HealthAnchor"
+        "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
+        "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
+    }
+	"HealthImageBonusRight"
+    {
+        "ControlName"                               "ImagePanel"
+        "fieldName"                                 "HealthImageBonusRight"
+        "xpos"                                      "40"
+        "ypos"                                      "-26"
+        "zpos"                                      "0"
+        "wide"                                      "64"
+        "tall"                                      "64"
+        "visible"                                   "1"
+
+        "alpha"                                     "0"
+        "image"                                     "replay/thumbnails/misc/health_stars_right"
         "scaleImage"                                "1"
 
         "pin_to_sibling"                            "HealthAnchor"

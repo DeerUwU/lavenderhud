@@ -54,7 +54,7 @@
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"star20"
 		"xpos"			"56"
-		"ypos"			"rs1-20"
+		"ypos"			"rs1-16"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"20"

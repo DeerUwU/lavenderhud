@@ -786,12 +786,12 @@ Scheme
 			"color" 				"gravy_primary"
 			
 			//"image"					"replay/thumbnails/borders/tintable_round_256x"
-			"image"					"replay/thumbnails/borders/outline_round_256x"
+			"image"					"replay/thumbnails/borders/outline_round_thick_256x"
 			
 			"src_corner_height"		"128"			// pixels inside the image
 			"src_corner_width"		"128"
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
 		}
 
 		friend_selected
@@ -802,12 +802,12 @@ Scheme
 			"color" 				"gravy_primary_light"
 			
 			//"image"					"replay/thumbnails/borders/tintable_round_256x"
-			"image"					"replay/thumbnails/borders/outline_round_256x"
+			"image"					"replay/thumbnails/borders/outline_round_thick_256x"
 			
 			"src_corner_height"		"128"			// pixels inside the image
 			"src_corner_width"		"128"
-			"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
 		}
 		friend_avatar_corners
 		{
@@ -816,12 +816,12 @@ Scheme
 			"paintfirst"			"1"
 			"color"					"gravy_dark"
 			
-			"image"					"replay/thumbnails/borders/round_inner_256x"
+			"image"					"replay/thumbnails/borders/round_inner_32x"
 			
-			"src_corner_height"		"128"				// pixels inside the image
-			"src_corner_width"		"128"
-			"draw_corner_width"		"9"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"9"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
 		}
 
 

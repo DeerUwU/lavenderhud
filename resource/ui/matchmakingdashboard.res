@@ -470,6 +470,8 @@
 				"actionsignallevel"		"3"
 				"paintbackground"		"0"
 			
+				"FgColor" 					"gravy_dark"
+				"FgColor_override" 			"gravy_dark"
 				"defaultFgColor_override" 	"gravy_dark"
 				"armedFgColor_override" 	"gravy_primary"
 				"depressedFgColor_override" "gravy_primary_dark"

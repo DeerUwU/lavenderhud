@@ -280,23 +280,23 @@
 		{
 			"ControlName"	"CScrollableList"
 			"fieldName"		"DataCenterList"
-			"xpos"			"7"
+			"xpos"			"cs-0.5-5"
 			"ypos"			"0"
 			"zpos"			"6"
-			"wide"			"f20"
+			"wide"			"f15"
 			"tall"			"f0"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
 			"restrict_width" "0"
+			"proportionaltoparent"	"1"
 
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"wide"			"4" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
@@ -332,7 +332,7 @@
 			"wide"					"f0"
 			"tall"					"f0"
 			"proportionaltoparent"	"1"
-			"border"				"rounded_dark_32x"
+			"border"				"rounded_dark_24x"
 			"mouseinputenabled"		"0"
 		}
 			
@@ -350,7 +350,7 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"rounded_darkest_32x"
+			"border"		"rounded_primary_32x"
 		}
 	}
 }

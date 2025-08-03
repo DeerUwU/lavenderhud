@@ -38,19 +38,19 @@
 	
 	"Gradient"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"Gradient"
-		"xpos"		"3"
-		"ypos"		"0"
-		"wide"		"30"
-		"tall"		"f0"
-		"zpos"	"1000"
+		"xpos"			"3"
+		"ypos"			"0"
+		"wide"			"30"
+		"tall"			"f0"
+		"zpos"			"1000"
 		"visible"		"1"
 
 		"rotation"		"2"
-		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
 
 		"image"		"gradient_pure_black"
 	}
@@ -67,9 +67,9 @@
 		"visible"			"1"
 		"rotation"			"1"
 		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
+		"scaleimage"		"1"
 		"mouseinputenabled"	"0"
-		"alpha"		"255"
+		"alpha"				"255"
 
 		"image"		"gradient_pure_black"
 	}

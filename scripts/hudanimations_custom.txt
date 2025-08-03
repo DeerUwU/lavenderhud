@@ -4,6 +4,8 @@ event HudHealthBonusPulse
     Animate         PlayerStatusHealthValue         FgColor     "gravy_health_high"   	    Linear      0.0     0.0
     Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_health_high_shadow"  Linear      0.0     0.0
     Animate         HealthImageBonus                Alpha       "196"                       Linear      0.0     0.0
+    Animate         HealthImageBonusLeft            Alpha       "196"                       Linear      0.0     0.0
+    Animate         HealthImageBonusRight           Alpha       "196"                       Linear      0.0     0.0
 
     RunEvent        HudHealthBonusPulseLoop         0.4
 }
@@ -17,6 +19,8 @@ event HudHealthBonusPulseStop
     StopEvent       HudHealthBonusPulseLoop         0.0
 
     Animate         HealthImageBonus                Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageBonusLeft            Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageBonusRight           Alpha       "0"                     Linear      0.0     0.0
     Animate         PlayerStatusHealthValue         FgColor     "gravy_primary_light"   Linear      0.0     0.0
     Animate         PlayerStatusHealthValueShadow   FgColor     "gravy_primary_dark"    Linear      0.0     0.0
 }

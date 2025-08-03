@@ -6,12 +6,14 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"0"
+		"ypos"			"cs-0.5"
 		"zpos"			"1001"
 		"wide"			"280"
-		"tall"			"f0"
+		"tall"			"350"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+
+		"border"		"rounded_darkest_32x"
 	}
 
 	"Title"
@@ -19,7 +21,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"Title"
 		"xpos"					"0"
-		"ypos"					"70"
+		"ypos"					"5"
 		"zpos"					"99"
 		"wide"					"f0"
 		"tall"					"30"
@@ -31,33 +33,36 @@
 		
 		"mouseinputenabled"		"0"
 	}
+	"TitleShadow"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"TitleShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"98"
+		"wide"					"f0"
+		"tall"					"30"
+		"proportionaltoparent"	"1"
+		"labeltext"				"#TF_Matchmaking_HeaderModeSelect"
+		"textAlignment"			"center"
+		"font"					"sugar-30"
+		"fgcolor_override"		"gravy_primary_dark"
+		
+		"mouseinputenabled"		"0"
+
+		"pin_to_sibling"		"Title"
+	}
 
 	"playlist"
 	{
 	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"8"
-		"ypos"			"100"
+		"ypos"			"34"
 		"zpos"			"100"
 		"wide"			"255"
 		"tall"			"365"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}
-
-	"PlayListDropShadow"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"PlayListDropShadow"
-		"xpos"					"8"
-		"ypos"					"50"
-		"zpos"					"1000"
-		"wide"					"255"
-		"tall"					"298"
-		"visible"				"0"
-		"PaintBackgroundType"	"2"
-		"border"				"InnerShadowBorder"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"		"0"
 	}
 }

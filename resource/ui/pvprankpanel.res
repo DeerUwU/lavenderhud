@@ -399,6 +399,21 @@
 						"fgcolor_override"	"gravy_primary"
 						"bgcolor_override"	"gravy_dark"
 					}
+					// just in case
+					"ProgressBarBG"
+					{
+						"Controlname"			"EditablePanel"
+						"fieldName"				"ProgressBarBG"
+						"xpos"					"0"
+						"ypos"					"0"
+						"zpos"					"-1"
+						"wide"					"f0"
+						"tall"					"f0"
+						"visible"				"1"
+						"proportionaltoparent"	"1"
+						"bgcolor_override"		"gravy_dark"
+					}
+
 
 					"Frame"
 					{

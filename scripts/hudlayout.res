@@ -999,7 +999,7 @@
 
 		"xpos"			"c-235"
 		"ypos"			"rs1+25"
-		// "zpos"			"10"
+		"zpos"			"10"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

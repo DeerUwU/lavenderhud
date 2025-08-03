@@ -29,10 +29,10 @@
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"		"7" // k_eTFMatchGroup_Casual_12v12
 
-		if_event
-		{
-			"ypos"			"53"
-		}
+		// if_event
+		// {
+		// 	"ypos"			"53"
+		// }
 	}
 
 	"CompetitiveEntry"
@@ -51,10 +51,10 @@
 		"desc_token"		"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
 
-		if_event
-		{
-			"ypos"			"103"
-		}
+		// if_event
+		// {
+		// 	"ypos"			"103"
+		// }
 	}
 
 	"MvMEntry"
@@ -73,10 +73,10 @@
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
 
-		if_event
-		{
-			"ypos"			"153"
-		}
+		// if_event
+		// {
+		// 	"ypos"			"153"
+		// }
 	}
 
 	"ServerBrowserEntry"
@@ -94,10 +94,10 @@
 		"button_command"	"play_community"
 		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
 
-		if_event
-		{
-			"ypos"			"203"
-		}
+		// if_event
+		// {
+		// 	"ypos"			"203"
+		// }
 	}
 
 	"TrainingEntry"
@@ -115,10 +115,10 @@
 		"button_command"	"play_training"
 		"desc_token"		"#MMenu_PlayList_Training_Desc"
 
-		if_event
-		{
-			"ypos"			"253"
-		}
+		// if_event
+		// {
+		// 	"ypos"			"253"
+		// }
 	}
 
 	"CreateServerEntry"
@@ -136,20 +136,20 @@
 		"button_command"	"create_server"
 		"desc_token"		"#MMenu_PlayList_CreateServer_Desc"
 
-		if_event
-		{
-			"ypos"			"303"
-		}
+		// if_event
+		// {
+		// 	"ypos"			"303"
+		// }
 	}
 
 	"ScrollBar"
 	{
 		"ControlName"	"ScrollBar"
 		"FieldName"		"ScrollBar"
-		"xpos"			"rs1-1"
+		"xpos"			"rs1"
 		"ypos"			"0"
 		"tall"			"f0"
-		"wide"			"5" // This gets slammed from client schme.  GG.
+		"wide"			"4" // This gets slammed from client schme.  GG.
 		"zpos"			"1000"
 		"nobuttons"		"1"
 		"proportionaltoparent"	"1"

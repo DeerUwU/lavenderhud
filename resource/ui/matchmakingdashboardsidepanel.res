@@ -1,40 +1,5 @@
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
-	"Shade"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Shade"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"bgcolor_override"	"0 0 0 255"
-	}
-
-	"TitleGradient"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"TitleGradient"
-		"xpos"					"3"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"60"
-		"zpos"					"98"
-		"visible"				"0"
-
-		"rotation"				"3"
-		"proportionaltoparent"	"1"
-		"scaleimage"			"1"
-		"mouseinputenabled"		"0"
-		"alpha"					"180"
-
-		"image"		"gradient_pure_black"
-	}
 	
 	"InnerGradient"
 	{
@@ -80,7 +45,7 @@
 		"wide"			"20"
 		"tall"			"f0"
 		"zpos"			"1000"
-		"visible"		"1"
+		"visible"		"0"
 
 
 
@@ -161,11 +126,14 @@
 		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"f0"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
 
-		"border"			"null"
-		"bgcolor_override"	"gravy_darkest"
+		"paintBackground"		"0"
+		"paintBorder"			"1"
+
+		"border"				"rounded_darkest_32x"
+		"bgcolor_override"		"gravy_darkest"
 	}
 }

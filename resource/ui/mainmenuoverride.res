@@ -1302,10 +1302,10 @@
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
-			"xpos"			"cs-0.5+5"
+			"xpos"			"10"
 			"ypos"			"rs1-10"
 			"zpos"			"500"
-			"wide"			"f10"
+			"wide"			"f14"
 			"tall"			"160"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
@@ -1330,14 +1330,21 @@
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"6" // This gets slammed from client schme.  GG.
+				"wide"			"4" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
+				"roundedcorners"		"15"
 
 				"Slider"
 				{
-					"fgcolor_override"	"gravy_grey"
+					"fgcolor_override"			"gravy_primary"
+					"fgcolor"					"gravy_primary"
+					"paintBackground"			"0"
+					"paintBorder"				"0"
+					"ignorescheme"				"1"
+					"roundedcorners"			"15"
+					"paintbackgroundtype"		"0"
 				}
 		
 				"UpButton"
@@ -1370,7 +1377,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
-			"border"		"rounded_dark_32x"
+			"border"		"rounded_dark_24x"
 		}
 	}
 
