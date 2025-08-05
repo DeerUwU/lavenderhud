@@ -33,15 +33,15 @@ Scheme
 	    "QuickListBGDeselected"		"69 64 58 255"
 	    "QuickListBGSelected"       "131 121 104 150"
 	    
-	    "Blank"				"0 0 0 0"
+	    "Blank"						"0 0 0 0"
 	    
 	    // background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ControlBG"					"76 88 68 255"		// background color of controls
+		"ControlDarkBG"				"90 106 80 255"		// darker background color; used for background of scrollbars
+		"WindowBG"					"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"				"90 84 75 255"	// background color of any selected text or menu item
+		"SelectionBG2"				"69 64 57 255"		// selection background in window w/o focus
+		"ListBG"					"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
@@ -171,12 +171,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
+				"name"			"TF2 Build"
+				"tall"			"35"
 				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -185,7 +185,7 @@ Scheme
 			"1"
 			{
 				"name"		"jua-regular-extended"
-				"tall"		"15"
+				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -199,7 +199,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 				"antialias" "1"
 			}
 			"2"
@@ -217,7 +217,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -226,7 +226,7 @@ Scheme
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -235,48 +235,42 @@ Scheme
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
 		
 				
-		AchievementItemTitle	[!$OSX]
+		AchievementItemTitle
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"			"Arial"
 				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
+				"tall"			"16"
 				"antialias"		"1"
 			}
 		}
 		
-		AchievementItemTitleLarge	[!$OSX]
+		AchievementItemTitleLarge
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"			"Arial"
 				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
+				"tall"			"18"
 				"antialias"		"1"
 			}
 		}
 		
-		AchievementItemDescription	[!$OSX]
+		AchievementItemDescription
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"			"Arial"
 				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
+				"tall"			"14"
+				"antialias"		"1"
 			}
 		}
 
@@ -320,13 +314,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 	"DM Mono Regular"
-				"tall"			"16"
-				"weight"		"500"
-				"antialias"		"1"
+				"name"					"DM Mono Regular"
+				"tall"					"20"
+				"weight"				"500"
+				"antialias"				"1"
 			}
-		}
 
+		}
 	}
 
 
@@ -335,7 +329,7 @@ Scheme
 		FrameBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"paintfirst"			"1"
 			"color"					"gravy_dark"
 			

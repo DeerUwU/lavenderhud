@@ -549,17 +549,6 @@ Scheme
 		// 	"name" "Blocks"
 		// }
 
-		"A"
-		{
-			"font" "resource/fonts/milku_edit.ttf"
-			"name" "jua-regular-extended"
-			"range" "0x0021 0x00FF"
-		}
-		"B"
-		{
-			"font" "resource/fonts/starhat.otf"
-			"name" "Starhat"
-		}
 		"C"
 		{
 			"font" "resource/fonts/jua-regular-extended.ttf"

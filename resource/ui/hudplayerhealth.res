@@ -225,7 +225,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/bleed_drop"
+		"image"			"bleed_drop"
 		"fgcolor"		"TanDark"
 
 		"pin_to_sibling"	"Pin_Playerstatus"
@@ -242,7 +242,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/bleed_drop_grapple"
+		"image"			"bleed_drop_grapple"
 		"fgcolor"		"TanDark"
 
 		"pin_to_sibling"	"Pin_Playerstatus"
@@ -259,7 +259,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/bleed_drop"
+		"image"			"bleed_drop"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusGasImage"
@@ -274,7 +274,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/covered_in_gas"
+		"image"			"covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -289,7 +289,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/marked_for_death"
+		"image"			"marked_for_death"
 		"fgcolor"		"TanDark"
 
 		"pin_to_sibling"	"Pin_Playerstatus"
@@ -306,7 +306,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/marked_for_death"
+		"image"			"marked_for_death"
 		"fgcolor"		"TanDark"
 
 		"pin_to_sibling"	"Pin_Playerstatus"
@@ -736,7 +736,7 @@
 		"visible"		"1"
 
 		"scaleImage"	"1"	
-		"image"			"../vgui/slowed"
+		"image"			"slowed"
 		"fgcolor"		"TanDark"
 
 		"pin_to_sibling"	"Pin_Playerstatus"

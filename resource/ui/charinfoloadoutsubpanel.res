@@ -381,9 +381,10 @@
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"7"
-		"wide"			"120"
-		"tall"			"20"
-
+		"wide"			"150"
+		"tall"			"30"
+		"centerwrap"	"1"
+		"wrap"			"1"
 
 		"visible"		"1"
 
@@ -491,7 +492,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"milku10Bold"
+		"font"			"milku10"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -582,7 +583,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"star25"
+		"font"			"jua20"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
 		"xpos"			"0"

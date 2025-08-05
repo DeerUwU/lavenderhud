@@ -475,9 +475,6 @@
 				"defaultFgColor_override" 	"gravy_dark"
 				"armedFgColor_override" 	"gravy_primary"
 				"depressedFgColor_override" "gravy_primary_dark"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
 
 				"sound_armed"		"ui/ui_select.wav"
 				"sound_depressed"	"ui/ui_decide.wav"			

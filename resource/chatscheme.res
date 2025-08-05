@@ -406,7 +406,7 @@
 			"4"
 			{
 				"name"										"jua-regular-extended"
-				"tall"										"17"
+				"tall"										"19"
 				"weight"									"500"
 				"yres"										"1024 1199"
 				"dropshadow"								"1"
