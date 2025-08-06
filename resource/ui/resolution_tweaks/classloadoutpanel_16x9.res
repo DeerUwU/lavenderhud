@@ -72,7 +72,7 @@
 			}
 		}
 
-		"itemoptionpanels_kv"
+		"itemoptionpanels_kv" // the small plus icon when cosmetics have multiple styles
 		{
 			"ControlName"	"CExButton"
 			"xpos"			"0"
@@ -80,18 +80,13 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-
 			"visible"		"0"
-
-
-			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"labelText"		"¹"
+			"font"			"icon10"
 			"textAlignment"	"center"
 
-
-			"default"		"1"
+			"sound_armed"		"ui/ui_check_small.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
-
 		}
 	}
 	// --------------------------------------------------

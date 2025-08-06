@@ -87,7 +87,6 @@
 
 			"sound_armed"		"ui/ui_check_small.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
-
 		}
 	}
 	// --------------------------------------------------

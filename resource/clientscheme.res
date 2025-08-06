@@ -485,7 +485,7 @@ Scheme
 			{
 				"name"		"jua-regular-extended"
 				"tall"		"12"
-				"weight"	"900"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
@@ -494,7 +494,7 @@ Scheme
 				"name"		"jua-regular-extended"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
-				"weight"	"900"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
@@ -502,7 +502,7 @@ Scheme
 			{
 				"name"		"jua-regular-extended"
 				"tall"		"14"
-				"weight"	"900"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
@@ -511,7 +511,7 @@ Scheme
 			{
 				"name"		"jua-regular-extended"
 				"tall"		"20"
-				"weight"	"900"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
@@ -520,7 +520,7 @@ Scheme
 			{
 				"name"		"jua-regular-extended"
 				"tall"		"9"
-				"weight"	"900"
+				"weight"	"600"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
@@ -529,14 +529,14 @@ Scheme
 				"name"		"jua-regular-extended"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"weight"		"600"
 			}
 			"7"
 			{
 				"name"		"jua-regular-extended"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"weight"		"500"
 			}
 
 			

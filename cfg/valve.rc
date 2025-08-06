@@ -7,9 +7,7 @@ exec config.cfg
 stuffcmds
 
 
-
-
-
+// initializing hud elements for customization
 alias lavhud_initial "exec lavhud_initialize"
 exec #lavhud_initial.txt
 lavhud_initial; echo "initializing hud";
