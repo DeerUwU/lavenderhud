@@ -1489,17 +1489,17 @@
 	// dont need these
 
 	
-	"EditLoadoutButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"EditLoadoutButton"
-		"xpos"			"9999"
+	// "EditLoadoutButton"
+	// {
+	// 	"ControlName"	"CExButton"
+	// 	"fieldName"		"EditLoadoutButton"
+	// 	"xpos"			"9999"
 		
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		">Loadout" //#EditLoadout
-		"Command"		"openloadout"
-	}
+	// 	"visible"		"0"
+	// 	"enabled"		"0"
+	// 	"labelText"		">Loadout" //#EditLoadout
+	// 	"Command"		"openloadout"
+	// }
 	"ResetButton" //unused?
 	{
 		"ControlName"	"CExButton"
@@ -1897,10 +1897,10 @@
 		"mouseinputenabled"		"0"
 	}
 
-	"LoadoutButtonCustom"
+	"EditLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"LoadoutButtonCustom"
+		"fieldName"		"EditLoadoutButton"
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"20"
@@ -1909,13 +1909,14 @@
 		"visible"		"1"
 
 		"textinsetx"	"32"
-		"textinsety"	"2"
+		"textinsety"	"13"
 		"font"			"milku25"
 		"textAlignment"	"west"
-		"labeltext" 	"Loadout"
+		"labeltext" 	"Loadout &e"
+		"wrap"			"1" //stupid workaround to make &e not visible for the hotkey :sob:
 		"command"		"openloadout"
 			
-		"paintbackground"	"0"
+		"paintbackground"			"0"
 		"use_proportional_insets"	"1"
 
 		"defaultfgcolor_override"	"gravy_darkest"
@@ -1973,14 +1974,5 @@
 		
 		"labelText"		"&R"
 		"Command"		"select 12"
-	}	
-	"LoadoutHotkey"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"LoadoutHotkey"
-		"xpos"			"9999"
-		
-		"labelText"		"&E"
-		"Command"		"openloadout"
-	}	
+	}		
 }
