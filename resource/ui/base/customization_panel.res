@@ -53,17 +53,70 @@
 			"armedFgColor_override"		"gravy_primary"	
 		}
 
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"sugar-25"
+			"fgcolor"		"gravy_primary"
+			"labelText"		"CUSTOMIZATION"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"30"
+
+			"visible"		"1"
+
+			"proportionaltoparent"	"1"
+		}
+		
+
+		"Underline"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"Underline"
+			"xpos"				"cs-0.5"
+			"ypos"				"26"
+			"zpos"				"1"
+			"wide"				"150"
+			"tall"				"4"
+
+			"paintBackground"		"0"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"		"gravy_primary"
+			"border"				"underline_primary"
+		}
+		"UnderlineShadow"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"UnderlineShadow"
+			"xpos"				"-1"
+			"ypos"				"-1"
+			"zpos"				"0"
+			"wide"				"150"
+			"tall"				"4"
+
+			"paintBackground"		"0"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"		"gravy_primary_dark"
+			"border"				"underline_primary_shadow"
+			
+			"pin_to_sibling"	"Underline"
+		}
 		
 
 		"Background"
 		{
 			"ControlName"	"CScrollableList"
 			"fieldname"		"Background"
-			"xpos"			"8"
-			"ypos"			"0"
+			"xpos"			"0"
+			"ypos"			"35"
 			"zpos"			"0"
-			"wide"			"f16"
-			"tall"			"f0"
+			"wide"			"f0"
+			"tall"			"f43"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -112,68 +165,17 @@
 				}
 			}
 
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"sugar-25"
-				"fgcolor"		"gravy_primary"
-				"labelText"		"CUSTOMIZATION"
-				"textAlignment"	"center"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"30"
-
-				"visible"		"1"
-
-				"proportionaltoparent"	"1"
-			}
-			
-			
-			
-			"Underline"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"Underline"
-				"xpos"				"cs-0.5"
-				"ypos"				"26"
-				"zpos"				"1"
-				"wide"				"150"
-				"tall"				"4"
-
-				"paintBackground"		"0"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"		"gravy_primary"
-				"border"				"underline_primary"
-			}
-			"UnderlineShadow"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"UnderlineShadow"
-				"xpos"				"-1"
-				"ypos"				"-1"
-				"zpos"				"0"
-				"wide"				"150"
-				"tall"				"4"
-
-				"paintBackground"		"0"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"		"gravy_primary_dark"
-				"border"				"underline_primary_shadow"
-				
-				"pin_to_sibling"	"Underline"
-			}
+			// -------------------------------------------------------
+			// start individual setting panels
 
 			"ClassIconPanel"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"ClassIconPanel"
 				"xpos"				"cs-0.5"
-				"ypos"				"35"
+				"ypos"				"0"
 				"zpos"				"1"
-				"wide"				"f8"
+				"wide"				"f16"
 				"tall"				"45"
 
 				"visible"			"1"
@@ -260,15 +262,14 @@
 				}
 			} // end classicon setting
 
-
 			"AmmoHealthBgSettingPanel"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"AmmoHealthBgSettingPanel"
 				"xpos"				"cs-0.5"
-				"ypos"				"85"
+				"ypos"				"50"
 				"zpos"				"1"
-				"wide"				"f8"
+				"wide"				"f16"
 				"tall"				"45"
 				"border"			"rounded_dark_24x"
 
@@ -363,9 +364,9 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"UseMatchHudPanel"
 				"xpos"				"cs-0.5"
-				"ypos"				"135"
+				"ypos"				"100"
 				"zpos"				"1"
-				"wide"				"f8"
+				"wide"				"f16"
 				"tall"				"45"
 				"border"			"rounded_dark_24x"
 
@@ -454,24 +455,19 @@
 					"visible"				"1"
 				}
 			} // end UseMatchHudPanel
-
-			"ShaderSettingPanel"
+			"ViewmodelSettingPanel"
 			{
 				"ControlName"		"EditablePanel"
-				"fieldName"			"ShaderSettingPanel"
+				"fieldName"			"ViewmodelSettingPanel"
 				"xpos"				"cs-0.5"
-				"ypos"				"185"
+				"ypos"				"150"
 				"zpos"				"1"
-				"wide"				"f8"
-				"tall"				"65"
+				"wide"				"f16"
+				"tall"				"55"
 				"border"			"rounded_dark_24x"
 
 				"visible"			"1"
 				"proportionaltoparent"	"1"
-
-				// "pin_to_sibling"		"UseMatchHudPanel"
-				// "pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
-				// "pin_corner_to_sibling"	"PIN_CENTER_TOP"
 
 				"Title"
 				{
@@ -479,7 +475,7 @@
 					"fieldName"		"Title"
 					"font"			"sugar-20"
 					"fgcolor"		"gravy_primary"
-					"labelText"		"Main Shader"
+					"labelText"		"Viewmodel Style"
 					"textAlignment"	"center"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -497,7 +493,7 @@
 					"fieldName"		"Description"
 					"font"			"Jua12"
 					"fgcolor"		"gravy_primary_light"
-					"labelText"		"warning: shaders may cause visual bugs like a black screen, please test if they work."
+					"labelText"		"Viewmodel Style"
 					"textAlignment"	"west"
 					"wrap"			"1"
 					"xpos"			"cs-0.5"
@@ -506,29 +502,29 @@
 					"wide"			"f10"
 					"tall"			"20"
 
-					"visible"		"1"
+					"visible"		"0"
 
 					"proportionaltoparent"	"1"
 				}
 
-				"ChromaticButton"
+				"OffButton"
 				{
-					"ControlName"	"CExButton"
-					"fieldName"		"ChromaticButton"
-					"font"			"Jua15"
-					"fgcolor"		"gravy_primary"
-					"labelText"		"Chromatic"
-					"textAlignment"	"center"
-					"xpos"			"cs-1-4"
-					"ypos"			"40"
-					"wide"			"100"
-					"tall"			"20"
+					"ControlName"			"CExButton"
+					"fieldName"				"OffButton"
+					"font"					"Jua15"
+					"fgcolor"				"gravy_primary"
+					"labelText"				"Off"
+					"textAlignment"			"center"
+					"xpos"					"5"
+					"ypos"					"25"
+					"wide"					"75"
+					"tall"					"20"
 
 					"paintbackground"		"0"
 					"paintborder"			"1"
 					"proportionaltoparent"	"1"
 					"actionsignallevel"		"4"
-					"command"				"engine exec lavhud; lav_mainshader_chromatic;		exec lavhud_save;exec lavhud_generate; hud_reloadscheme"
+					"command"				"engine exec lavhud; dh_viewmodel_0;		exec lavhud_save;exec lavhud_generate; r_drawviewmodel 0; hud_reloadscheme"
 
 					"sound_armed"				"ui/ui_select.wav"
 					"sound_depressed"			"ui/ui_decide.wav"
@@ -540,24 +536,24 @@
 
 					"visible"				"1"
 				}
-				"NoneButton"
+				"TransparentButton"
 				{
-					"ControlName"	"CExButton"
-					"fieldName"		"NoneButton"
-					"font"			"Jua15"
-					"fgcolor"		"gravy_primary"
-					"labelText"		"Off"
-					"textAlignment"	"center"
-					"xpos"			"c4"
-					"ypos"			"40"
-					"wide"			"100"
-					"tall"			"20"
+					"ControlName"			"CExButton"
+					"fieldName"				"TransparentButton"
+					"font"					"Jua15"
+					"fgcolor"				"gravy_primary"
+					"labelText"				"Transparent"
+					"textAlignment"			"center"
+					"xpos"					"cs-0.5"
+					"ypos"					"25"
+					"wide"					"85"
+					"tall"					"20"
 
 					"paintbackground"		"0"
 					"paintborder"			"1"
 					"proportionaltoparent"	"1"
 					"actionsignallevel"		"4"
-					"command"				"engine exec lavhud; lav_mainshader_none;		exec lavhud_save;exec lavhud_generate; hud_reloadscheme"
+					"command"				"engine exec lavhud; dh_viewmodel_50;		exec lavhud_save;exec lavhud_generate; hud_reloadscheme"
 
 					"sound_armed"				"ui/ui_select.wav"
 					"sound_depressed"			"ui/ui_decide.wav"
@@ -569,16 +565,46 @@
 
 					"visible"				"1"
 				}
-			} // end Shader setting
+				"SolidButton"
+				{
+					"ControlName"			"CExButton"
+					"fieldName"				"SolidButton"
+					"font"					"Jua15"
+					"fgcolor"				"gravy_primary"
+					"labelText"				"Solid"
+					"textAlignment"			"center"
+					"xpos"					"rs1-5"
+					"ypos"					"25"
+					"wide"					"75"
+					"tall"					"20"
 
-			"AspectRatioSettingPanel"
+					"paintbackground"		"0"
+					"paintborder"			"1"
+					"proportionaltoparent"	"1"
+					"actionsignallevel"		"4"
+					"command"				"engine exec lavhud; dh_viewmodel_0;		exec lavhud_save;exec lavhud_generate; r_drawviewmodel 1; hud_reloadscheme"
+
+					"sound_armed"				"ui/ui_select.wav"
+					"sound_depressed"			"ui/ui_decide.wav"
+
+					"defaultFgColor_override"	"gravy_primary"
+					"armedFgColor_override"		"gravy_darkest"
+					"border_default"			"rounded_darkest_16x"
+					"border_armed"				"rounded_primary_16x"
+
+					"visible"				"1"
+				}
+			} // end transparent viewmodel setting
+
+			
+			"AspectRatioSettingPanel" // disabled, ignore
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"AspectRatioSettingPanel"
 				"xpos"				"cs-0.5"
 				"ypos"				"255"
 				"zpos"				"1"
-				"wide"				"f8"
+				"wide"				"f16"
 				"tall"				"65"
 				"border"			"rounded_dark_24x"
 
@@ -712,14 +738,132 @@
 				}
 			} // end Shader setting
 
+			
+			"ShaderSettingPanel"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"ShaderSettingPanel"
+				"xpos"				"cs-0.5"
+				"ypos"				"210" 
+				"zpos"				"1"
+				"wide"				"f16"
+				"tall"				"65"
+				"border"			"rounded_dark_24x"
+
+				"visible"			"1"
+				"proportionaltoparent"	"1"
+
+				// "pin_to_sibling"		"UseMatchHudPanel"
+				// "pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+				// "pin_corner_to_sibling"	"PIN_CENTER_TOP"
+
+				"Title"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Title"
+					"font"			"sugar-20"
+					"fgcolor"		"gravy_primary"
+					"labelText"		"Shader effects"
+					"textAlignment"	"center"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"
+					"wide"			"f0"
+					"tall"			"20"
+
+					"visible"		"1"
+
+					"proportionaltoparent"	"1"
+				}
+				"Description"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"Description"
+					"font"			"Jua12"
+					"fgcolor"		"gravy_primary_light"
+					"labelText"		"warning: shaders may cause visual bugs like a black screen."
+					"textAlignment"	"west"
+					"wrap"			"1"
+					"xpos"			"cs-0.5"
+					"ypos"			"17"
+					"zpos"			"2"
+					"wide"			"f10"
+					"tall"			"20"
+
+					"visible"		"1"
+
+					"proportionaltoparent"	"1"
+				}
+
+				"ChromaticButton"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ChromaticButton"
+					"font"			"Jua15"
+					"fgcolor"		"gravy_primary"
+					"labelText"		"Chromatic"
+					"textAlignment"	"center"
+					"xpos"			"cs-1-4"
+					"ypos"			"40"
+					"wide"			"100"
+					"tall"			"20"
+
+					"paintbackground"		"0"
+					"paintborder"			"1"
+					"proportionaltoparent"	"1"
+					"actionsignallevel"		"4"
+					"command"				"engine exec lavhud; lav_mainshader_chromatic;		exec lavhud_save;exec lavhud_generate; hud_reloadscheme"
+
+					"sound_armed"				"ui/ui_select.wav"
+					"sound_depressed"			"ui/ui_decide.wav"
+
+					"defaultFgColor_override"	"gravy_primary"
+					"armedFgColor_override"		"gravy_darkest"
+					"border_default"			"rounded_darkest_16x"
+					"border_armed"				"rounded_primary_16x"
+
+					"visible"				"1"
+				}
+				"NoneButton"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"NoneButton"
+					"font"			"Jua15"
+					"fgcolor"		"gravy_primary"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"			"c4"
+					"ypos"			"40"
+					"wide"			"100"
+					"tall"			"20"
+
+					"paintbackground"		"0"
+					"paintborder"			"1"
+					"proportionaltoparent"	"1"
+					"actionsignallevel"		"4"
+					"command"				"engine exec lavhud; lav_mainshader_none;		exec lavhud_save;exec lavhud_generate; hud_reloadscheme"
+
+					"sound_armed"				"ui/ui_select.wav"
+					"sound_depressed"			"ui/ui_decide.wav"
+
+					"defaultFgColor_override"	"gravy_primary"
+					"armedFgColor_override"		"gravy_darkest"
+					"border_default"			"rounded_darkest_16x"
+					"border_armed"				"rounded_primary_16x"
+
+					"visible"				"1"
+				}
+			} // end Shader setting
+
+
 			"LinkPanel"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"LinkPanel"
 				"xpos"				"cs-0.5"
-				"ypos"				"255"
+				"ypos"				"280"
 				"zpos"				"1"
-				"wide"				"f8"
+				"wide"				"f16"
 				"tall"				"65"
 				"border"			"rounded_dark_24x"
 

@@ -16,6 +16,20 @@
 		//// "visible"		"0"
 		//// "image"		"replay/thumbnails/shaders/chromatic"
 	}
+	"TransparentViewmodelMask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-999"
+		"wide"			"f0"
+		"tall"			"480"
+		"scaleImage"	"1"
+		//// "visible"		"0"
+		//// "image"		"replay/thumbnails/null"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

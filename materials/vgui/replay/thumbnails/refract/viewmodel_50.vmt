@@ -1,6 +1,11 @@
 "Refract"
 {
 	"%keywords" 	"tf"
+	"$refractamount" "0"
+	"$refracttint" 	"{255 255 255}"
+	"$refractblur" 	"0" //1
+	"$bluramount" 	"0" //3
+	"$envmapsaturation" "0"
 
 	
 	"$normalmap" "vgui/replay/thumbnails/refract/viewmodel_50"

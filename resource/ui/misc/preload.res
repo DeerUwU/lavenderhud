@@ -31,6 +31,34 @@
 
 			"image"			"../hud/cart_red"
 		}
+		"CartRedBottom"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CartRedBottom"
+			"xpos"			"9999"
+			"visible"		"1"
+
+			"image"			"../hud/cart_red_bottom"
+		}
+
+		"CartHomeBlue"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CartHomeBlue"
+			"xpos"			"9999"
+			"visible"		"1"
+
+			"image"			"../hud/cart_home_blue"
+		}
+		"CartHomeRed"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"CartHomeRed"
+			"xpos"			"9999"
+			"visible"		"1"
+
+			"image"			"../hud/cart_home_red"
+		}
 		
 		"CartPointBlue"
 		{
@@ -685,6 +713,15 @@
 			"visible"		"1"
 
 			"image"			"capture_icon_white"
+		}
+		"progress_bar"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"progress_bar"
+			"xpos"			"9999"
+			"visible"		"1"
+
+			"image"			"progress_bar"
 		}
 		"progress_bar_blu"
 		{
